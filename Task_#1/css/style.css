@@ -1,0 +1,62 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/** Заголовок робимо капсом */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/** Картинка з границею в 2px і заукругленням до повного кола */
+img {
+    border: 2px solid #ccc;
+    border-radius: 999px;
+}
+
+/** Квадратні маркери у списках */
+ul {
+    list-style: square;
+}
+
+ul li.list-item {
+    color: grey;
+    line-height: 24px;
+}
+
+/** Кольора словами не практикують, малий діапазон.. тому юзай 3- або 6-значені */
+/** grey => #ccc => #cccccc */
+ul.list_with_span li {
+    color: grey;
+}
+
+ul li a {
+    color: #3684e0;
+    text-decoration: none;
+}
+
+/** Стиль ссилок при наведенні мишкою */
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    border-bottom: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+/** Останньому блоку - убираемо нижню границю */
+.block:last-child {
+    border-bottom: none;
+}
