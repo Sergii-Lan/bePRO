@@ -1,0 +1,103 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+.main_block {
+    width: 965px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 40px;
+    background-color: #4F4F4F;
+    margin-top: 40px;
+}
+
+.header a {
+    display: block;
+    /*text-align: left;*/
+    font-size: 18px;
+    font-family: "OpenSans";
+    padding: 10px 35px;
+    color: #ffffff;
+}
+.header a:hover {
+    background-color: #000000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+.header ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+.header ul li {
+    /*float: left;*/
+    list-style-type: none; /* Убераємо маркери */
+}
+
+.float-left {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    display: block;
+    /*width: 200px;*/
+    border: 1px solid #000000;
+    border-bottom: none;
+    width: 225px;
+}
+
+.float-left a{
+    color: #828282;
+    height: 38px;
+    border-bottom: 1px solid #000000;
+}
+.float-left a:hover {
+    color: black;
+    padding-left: 10px;
+}
+.im {
+    margin-top: 40px;
+    border: 1px solid #000000;
+    float: right;
+    width: 675px;
+    height: 350px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+p {
+    float: right;
+    padding-left: 300px;
+    margin-top: 40px
+}
+
+.fotter {
+    margin-top: 350px;
+    height: 40px;
+    background-color: #E2E2E2;
+
+}
+
+.fotter ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+.fotter ul li {
+    list-style-type: none; /* Убераємо маркери */
+}
+.fotter a {
+    display: block;
+    /*text-align: left;*/
+    font-size: 18px;
+    font-family: "OpenSans";
+    padding: 10px 35px;
+    color: black;
+}
