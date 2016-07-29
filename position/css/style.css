@@ -1,0 +1,45 @@
+.fixed {
+    position: fixed;
+    width: 100px;
+    top: 50px;
+    right: 100px;
+    border: 1px solid black;
+}
+
+.back-grey {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: grey;
+    top: 200px;
+    left: 200px;
+    box-shadow: -5px -2px 5px yellow;
+    box-shadow: 10px 10px 5px red;
+ }
+.img {
+    background: gainsboro url("../img/img1.jpg");
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+}
+.cent {
+    height: 250px;
+    width: 250px;
+    margin: 500px;
+    border: 1px solid black;
+    background: gainsboro;
+    border-radius: 100px 0 0 100px;
+}
+.fotter {
+    background: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    bottom: 5px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+}
