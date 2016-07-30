@@ -14,11 +14,10 @@
     background: grey;
     top: 200px;
     left: 200px;
-    box-shadow: -5px -2px 5px yellow;
-    box-shadow: 10px 10px 5px red;
+    box-shadow: -5px -2px 5px yellow, 10px 10px 5px red;
  }
 .img {
-    background: gainsboro url("../img/img1.jpg");
+    background: gainsboro url("../img/img2.jpg") repeat;
     position: absolute;
     top: 70px;
     left: 70px;

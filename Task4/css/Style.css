@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    background: url("../img/back1.jpg") repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    width: 1000px;
+    margin: 0px auto 30px auto;
+    padding: 0;
+    border-bottom: 2px solid black;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    height: 177px;
+}
+
+.photo {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+    margin-top: 9px;
+    margin-left: 25px;
+}
+
+.clearfix::after { /* зачистка float*/
+    display: inline-block;
+    clear: both;
+    content: '';
+}
+
+.right-float {
+    float: right;
+}
+
+.contacts {
+    /*float: right;*/
+    color: #71AEAF;
+}
+
+.contacts ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.country {
+    padding-top: 20px;
+    display: block;
+}
+
+.country ul {
+    list-style: none;
+}
+
+.country li {
+    display: inline-block;
+}
+
+.country li img {
+    padding: 0 5px;
+}
+
+.menu {
+    display: block;
+    background: #323232;
+    color: white;
+    margin-top: -3px;
+}
+
+.menu ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul > li {
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 32px;
+}
+
+ul.submenu {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    width: 180px;
+}
+li:hover ul {
+    display: block;
+    background: #323232;
+}
+
+.leftColumn {
+    float: left;
+    height: 550px;
+    background: #EDEEF0;
+    width: 22%;
+    overflow: auto;
+}
+
+.centerColumn {
+    float: left;
+    height: 550px;
+    width: 56%;
+    overflow: auto;
+}
+.rightColumn {
+    float: left;
+    height: 550px;
+    background: #EDEEF0;
+    width: 22%;
+    overflow: auto;
+}
+
+.q {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.copy {
+    position: absolute;
+    bottom: 10px;
+}
+
+.span {
+    margin: 10px auto;
+}
