@@ -4,14 +4,14 @@
 }
 
 .back {
-    background: url("../img/back1.jpg") repeat;
+    background: url("../img/fon2.jpg") repeat-x;
     margin: 0;
     padding: 0;
 }
 
 .main-block {
     width: 1000px;
-    margin: 0px auto 30px auto;
+    margin: 0 auto 30px auto;
     padding: 0;
     border-bottom: 2px solid black;
     background: white;
@@ -20,7 +20,7 @@
 }
 
 .header {
-    height: 177px;
+    height: 175px;
 }
 
 .photo {
@@ -30,12 +30,12 @@
 
 .logo {
     float: left;
-    margin-top: 9px;
+    margin-top: 8px;
     margin-left: 25px;
 }
 
 .clearfix::after { /* зачистка float*/
-    display: inline-block;
+    display: block;
     clear: both;
     content: '';
 }
@@ -58,6 +58,7 @@
 .country {
     padding-top: 20px;
     display: block;
+    margin-right: 30px;
 }
 
 .country ul {
@@ -72,11 +73,17 @@
     padding: 0 5px;
 }
 
+.country li a {
+    font-size: 10px;
+    text-align: center;
+    color: #71AEAF;
+}
+
 .menu {
     display: block;
     background: #323232;
     color: white;
-    margin-top: -3px;
+    margin-top: -4px;
 }
 
 .menu ul {
@@ -93,52 +100,70 @@
 .menu li a {
     color: white;
     text-decoration: none;
-    padding: 0 32px;
+    padding: 0 28px;
 }
 
-ul.submenu {
+li ul.submenu {
     position: absolute; /* Подменю позиционируются абсолютно */
     display: none; /* Скрываем подменю */
-    width: 180px;
+    /*width: 180px;*/
 }
-li:hover ul {
+
+.submenu li a{
+    padding-left: 15px;
+}
+li:hover ul.submenu {
     display: block;
     background: #323232;
 }
 
-.leftColumn {
+/*.leftColumn {
     float: left;
     height: 550px;
     background: #EDEEF0;
     width: 22%;
-    overflow: auto;
 }
 
 .centerColumn {
     float: left;
     height: 550px;
     width: 56%;
-    overflow: auto;
 }
 .rightColumn {
     float: left;
     height: 550px;
     background: #EDEEF0;
     width: 22%;
-    overflow: auto;
+}*/
+.fon {
+    width: 1000px; /* ширина трех блоков */
+    background: url(../img/fon1.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */
+    float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
 }
 
-.q {
-    display: block;
-    clear: both;
-    content: '';
+.leftColumn {
+    width: 210px;
+    float: left;
+    margin-left: 5px;
+}
+.centerColumn {
+    width: 580px;
+    float: left;
+}
+.rightColumn {
+    width: 210px;
+    float: right;
 }
 
-.copy {
-    position: absolute;
-    bottom: 10px;
+h2 {
+    font-size: 18px;
+    text-align: center;
 }
 
-.span {
-    margin: 10px auto;
+li span {
+    font-size: 10px;
+}
+
+.footer {
+    text-align: center;
 }
