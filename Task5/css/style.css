@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1215px;
+    margin: 0 auto;
+}
+header {
+    display: block;
+    background: #004F91;
+    color: #01ADDD;
+    height: 35px;
+    text-align: right;
+    font-size: 16px;
+}
+
+header ul {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #01ADDD;
+    text-decoration: none;
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+header li a:hover {
+    background: #01ADDD;
+    color: white;
+}
+header ul li {
+    display: inline-block;
+    line-height: 35px;
+ }
+
+
+
+.fon {
+    height: 1028px;
+    width: 1215px;
+    background: url("../img/fon.jpg");
+}
+
+.form1 {
+    position: absolute;
+    width: 560px;
+    height: 610px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    top: 225px;
+    left: 350px;
+    /*text-align: center;*/
+    color: white;
+}
+
+h2 {
+    line-height: 60px;
+    border-bottom: 2px solid grey;
+}
+
+.content {
+    width: 276px;
+    margin: 0 auto;
+    color: white;
+}
+
+.facebook {
+    margin-top: 35px;
+    margin-bottom: 27px;
+}
+
+.line {
+    margin-bottom: 27px;
+}
+
+.box input {
+    margin-bottom: 18px;
+    display: inline-block;
+    height: 35px;
+    width: 276px;
+    background: black;
+    border: none;
+}
+.box input:hover {
+    background: #00508B;
+    box-shadow: 0 0 15px #00508B;
+    color: white;
+}
+
+.checkbox {
+    display: inline-block;
+    text-align: left;
+}
+
+.submit input {
+    background: #01ADDD;
+    width: 150px;
+    margin-top: 20px;
+    line-height: 35px;
+    color: white;
+    border: none;
+}
+
+.text1 {
+    width: 310px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    font-size: 11px;
+}
