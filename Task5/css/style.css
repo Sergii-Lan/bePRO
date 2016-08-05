@@ -2,6 +2,16 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'helveticaneuecyrlight', sans-serif, Georgia, Arial;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
