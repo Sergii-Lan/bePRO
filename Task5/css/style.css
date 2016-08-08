@@ -101,6 +101,7 @@ h2 {
     width: 276px;
     background: black;
     border: none;
+    color: white;
 }
 .box input:hover {
     background: #00508B;
