@@ -126,12 +126,17 @@ h2 {
 }
 
 .checkbox {
+    width: 276px;
     display: inline-block;
     text-align: left;
+    font-size: 14px;
+}
+
+.checkbox span {
+    margin-left: 5px;
 }
 
 .submit input {
-
     width: 150px;
     margin-top: 20px;
     border: 0;
