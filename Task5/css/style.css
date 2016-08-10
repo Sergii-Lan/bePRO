@@ -23,13 +23,14 @@ body {
     width: 1215px;
     margin: 0 auto;
 }
+
 header {
     display: block;
-    background: url("../img/menufon1.png");
-    color: #01ADDD;
     height: 36px;
-    text-align: right;
+    background: url('../img/menufon1.png');
+    color: #01addd;
     font-size: 14px;
+    text-align: right;
 }
 
 header ul {
@@ -39,57 +40,56 @@ header ul {
 
 header ul li {
     display: inline-block;
+    line-height: 36px;
     list-style: none;
 }
 
-header ul li a {
+header li a {
     display: inline-block;
-    color: #01ADDD;
-    text-decoration: none;
-    line-height: 36px;
     padding: 0 15px;
+    color: #01addd;
+    line-height: 36px;
+    text-decoration: none;
 }
 
 header li a:hover {
-    background: #01ADDD;
-    color: white;
+    background: #01addd;
+    color: #fff;
 }
-header ul li {
-    display: inline-block;
-    line-height: 36px;
- }
 
 .bor-left {
-    border-left: 1px solid blue;
+    border-left: 1px solid #00f;
 }
 
 .fon {
-    height: 1028px;
     width: 1215px;
-    background: url("../img/fon.jpg");
+    height: 1028px;
+    background: url('../img/fon.jpg');
+    /*display: flex;*/
 }
 
 .form1 {
     position: absolute;
-    width: 560px;
-    height: 610px;
-    background: rgba(0, 0, 0, 0.5);
-    text-align: center;
     top: 249px;
     left: 420px;
-    color: white;
+    width: 560px;
+    height: 610px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-align: center;
+    /*margin: auto;*/
 }
 
 h2 {
-    line-height: 60px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #808080;
     font-size: 22px;
+    line-height: 60px;
 }
 
 .content {
     width: 276px;
     margin: 0 auto;
-    color: white;
+    color: #fff;
 }
 
 .facebook {
@@ -102,21 +102,21 @@ h2 {
 }
 
 .box input {
-    margin-bottom: 16px;
     display: inline-block;
-    height: 35px;
     width: 256px;
-    background: black;
-    border: none;
-    color: white;
-    border-bottom: 1px solid grey;
+    height: 35px;
+    margin-bottom: 16px;
     padding-left: 20px;
+    border: 0;
+    border-bottom: 1px solid #808080;
+    background: #000;
+    color: #fff;
 }
 
 .box input:hover {
-    background: #00508B;
-    box-shadow: 0 0 15px #00508B;
-    color: white;
+    background: #00508b;
+    color: #fff;
+    box-shadow: 0 0 15px #00508b;
 }
 
 .checkbox {
@@ -125,20 +125,21 @@ h2 {
 }
 
 .submit input {
-    background: #01ADDD;
+
     width: 150px;
     margin-top: 20px;
-    line-height: 35px;
-    color: white;
-    border: none;
+    border: 0;
+    background: #01addd;
+    color: #fff;
     font-size: 14px;
+    line-height: 35px;
 }
 
 .text1 {
-    width: 310px;
     display: inline-block;
-    text-align: center;
-    margin: 20px auto 0 auto;
+    width: 310px;
+    margin: 20px auto 0;
     font-size: 11px;
     line-height: 16px;
+    text-align: center;
 }
