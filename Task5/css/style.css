@@ -46,7 +46,7 @@ header ul li {
 
 header li a {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 11px;
     color: #01addd;
     line-height: 36px;
     text-decoration: none;
@@ -57,8 +57,14 @@ header li a:hover {
     color: #fff;
 }
 
+li a:hover > span {
+    text-decoration: underline;
+}
+
 .bor-left {
+    padding-left: 50px;
     border-left: 1px solid #00f;
+    background: url("../img/flag.png") no-repeat 20px 6px;
 }
 
 .fon {
