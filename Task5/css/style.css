@@ -25,9 +25,9 @@ body {
 }
 header {
     display: block;
-    background: #004F91;
+    background: url("../img/menufon1.png");
     color: #01ADDD;
-    height: 35px;
+    height: 36px;
     text-align: right;
     font-size: 14px;
 }
@@ -46,7 +46,7 @@ header ul li a {
     display: inline-block;
     color: #01ADDD;
     text-decoration: none;
-    line-height: 35px;
+    line-height: 36px;
     padding: 0 15px;
 }
 
@@ -56,19 +56,12 @@ header li a:hover {
 }
 header ul li {
     display: inline-block;
-    line-height: 35px;
+    line-height: 36px;
  }
-
-li a img {
-    display: inline-block;
-    line-height: 35px;
-}
 
 .bor-left {
     border-left: 1px solid blue;
 }
-
-
 
 .fon {
     height: 1028px;
