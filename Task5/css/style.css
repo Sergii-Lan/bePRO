@@ -11,7 +11,12 @@
     url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: '';
 }
 
 body {
@@ -24,7 +29,7 @@ header {
     color: #01ADDD;
     height: 35px;
     text-align: right;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 header ul {
@@ -54,6 +59,15 @@ header ul li {
     line-height: 35px;
  }
 
+li a img {
+    display: inline-block;
+    line-height: 35px;
+}
+
+.bor-left {
+    border-left: 1px solid blue;
+}
+
 
 
 .fon {
@@ -68,15 +82,15 @@ header ul li {
     height: 610px;
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
-    top: 244px;
-    left: 423px;
-    /*text-align: center;*/
+    top: 249px;
+    left: 420px;
     color: white;
 }
 
 h2 {
     line-height: 60px;
     border-bottom: 2px solid grey;
+    font-size: 22px;
 }
 
 .content {
@@ -95,14 +109,17 @@ h2 {
 }
 
 .box input {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     display: inline-block;
     height: 35px;
-    width: 276px;
+    width: 256px;
     background: black;
     border: none;
     color: white;
+    border-bottom: 1px solid grey;
+    padding-left: 20px;
 }
+
 .box input:hover {
     background: #00508B;
     box-shadow: 0 0 15px #00508B;
