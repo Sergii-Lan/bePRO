@@ -1,0 +1,389 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    width: 909px;
+    margin: 0 auto;
+}
+
+/*--------------------------HEADER--------------------------*/
+
+header {
+    display: flex;
+    height: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.regist {
+    display: inline-block;
+    width: 470px;
+    margin: 0 18px;
+    padding-left: 25px;
+    border-radius: 5px;
+    background: linear-gradient(#216789, #0c3457);
+    box-shadow: 2px 2px 3px #808080;
+}
+
+.regist input {
+    width: 110px;
+}
+
+input::-webkit-input-placeholder {
+    padding: 3px;
+    font-size: 11px;
+}
+
+.regist .submit {
+    width: 40px;
+    height: 13px;
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.registration {
+    margin-right: 18px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.no-password {
+    color: #92979d;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.phone {
+    align-items: center;
+    padding-left: 30px;
+    background: url('../img/tel.jpg') 7px 2px no-repeat;
+}
+
+.phone span {
+    font-size: 19px;
+}
+
+.icon {
+    display: flex;
+    width: 75px;
+    height: 20px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+}
+
+.icon a img {
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+
+.banner {
+    height: 237px;
+    background: url('../img/banner.jpg');
+}
+
+/*--------------------------MENU------------------------*/
+
+nav {
+    display: block;
+    height: 34px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: linear-gradient(#4d5663, #010101);
+    font-size: 14px;
+}
+
+nav ul {
+    display: inline-block;
+    margin-left: 133px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a {
+    padding: 5px 14px;
+    color: #838D8f;
+    line-height: 33px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+    border-radius: 20px;
+    background: #13486a;
+    color: #fff;
+}
+
+.order {
+    display: inline-block;
+    width: 225px;
+    margin-left: 48px;
+    color: #838D8F;
+    font-size: 11px;
+}
+
+.order .number {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #0d5a8f;
+
+}
+
+/*----------------------SEARCH------------------------*/
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.car {
+    width: 383px;
+    height: 128px;
+    padding: 0 12px 8px 18px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.tires {
+    width: 162px;
+    height: 128px;
+    padding: 0 12px 8px 18px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.wheels {
+    width: 235px;
+    height: 128px;
+    padding: 0 12px 8px 18px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+/*-------------------------------------ARTICLE----------------------------------*/
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+/*-------------------------------------LEFT-------------------------------------*/
+.left-column {
+    width: 180px;
+    margin-top: 4px;
+}
+
+.name {
+    width: 180px;
+    height: 25px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    border: 1px solid black;
+    line-height: 25px;
+    border-radius: 20px;
+    background: url("../img/icon.png") no-repeat 3px 0;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.name h2 {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.name2 {
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    line-height: 25px;
+    border-radius: 20px;
+    background: url("../img/icon2.png") no-repeat 3px 0;
+    text-transform: uppercase;
+}
+
+.name2 h4 {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.left-column ul {
+    margin-left: 47px;
+
+}
+
+.left-column ul li {
+    margin: 6px 0;
+
+}
+
+.left-column li a {
+    color: grey;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.left-column li a:hover {
+    color: black;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+}
+
+
+/*--------------------------------------CENTER-----------------------------------*/
+
+.main-column {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 14px 0;
+    width: 525px;
+    height: 600px;
+    background: linear-gradient(#E6E7E9, #A8B7BE);
+    text-align: center;
+}
+
+figure {
+    /*width: 175px;
+    height: 137px;*/
+}
+
+.tire {
+    width: 137px;
+    height: 126px;
+    margin-bottom: 6px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.tire img {
+    margin: 5px 31px;
+}
+
+figcaption {
+    line-height: 14px;
+}
+
+figcaption a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+figcaption span {
+    font-size: 14px;
+}
+
+strong span i {
+    font-size: 13px;
+}
+
+/*----------------------------------------------RIGHT-------------------------------------*/
+
+.right-column {
+    width: 180px;
+    margin-top: 4px;
+}
+
+.name3 {
+    width: 135px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+    border: 1px solid black;
+    line-height: 25px;
+    border-radius: 20px;
+    background: url("../img/icon2.png") no-repeat 3px 0;
+    text-transform: uppercase;
+}
+
+.name3 h4 {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.right-column input {
+    height: 11px;
+    margin: 7px 13px 7px 21px;
+}
+
+.right-column span {
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.right-column input[type="submit"] {
+    width: 80px;
+    height: 26px;
+    border-radius: 10px;
+    margin: 20px;
+    background: linear-gradient(#1F6585, #0C3357);
+    color: white;
+    font-size: 12px;
+}
+
+.brand {
+    width: 909px;
+    display: block;
+    height: 25px;
+    margin-top: 37px;
+}
+
+.brand img {
+    /*margin:;*/
+    text-align: center;
+    line-height: 27px;
+}
+
+/*--------------------------------------------FOOTER------------------------------------*/
+
+footer {
+    display: inline-flex;
+    justify-content: center;
+    width: 909px;
+    height: 100px;
+    margin-top: 25px;
+    background: #213A4E;
+}
+
+footer ul {
+    margin-top: 8px;
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 13px;
+    border-right: 2px solid grey;
+    list-style: none;
+}
+
+footer li:last-child {
+    border: 0;
+}
+
+footer li a {
+    color: grey;
+    text-decoration: none;
+    margin: 1px;
+    padding: 1px;
+}
+
+footer li a:hover {
+    color: #59A4CB;
+}
