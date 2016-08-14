@@ -19,7 +19,7 @@
     content: '';
 }
 
-body {
+.body1 {
     width: 1215px;
     margin: 0 auto;
 }
@@ -121,12 +121,13 @@ h2 {
     border-bottom: 1px solid #808080;
     background: #000;
     color: #fff;
+    font-size: 14px;
 }
 
 .box input:focus {
     background: #00508b;
     color: #fff;
-    box-shadow: 0 0 15px #00508b;
+    box-shadow: 0 0 4px 4px #00508b;
 }
 
 .checkbox {
