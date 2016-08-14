@@ -12,11 +12,13 @@
         <span>(044)567-89-10</span>
     </div>
     <div class="regist">
+        <img src="img/log.png">
         <form>
             <input type="text" placeholder="логин">
             <input type="password" placeholder="пароль">
             <input class="submit" type="submit" value="вход">
-            <a class="registration" href="#">| регистрация</a>
+            <span>|</span>
+            <a class="registration" href="#">регистрация</a>
             <a class="no-password" href="#">забыли пароль?</a>
         </form>
     </div>
@@ -46,10 +48,109 @@
 </nav>
 <section>
     <div class="car">
-
+        <div class="title">
+            <span>Диски</span>
+            <h3>Поиск по автомобилю</h3>
+            <span>Шины:</span>
+        </div>
+        <div class="for-flex">
+            <div class="section-select">
+                <p>Марка <span>авто:</span></p>
+                <p>Модель <span>автомобиля:</span></p>
+                <p>Год выпуска <span>автомобиля:</span></p>
+                <p>Комплектация:</p>
+            </div>
+            <form class="for-car">
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+                <select class="years" name="">
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                </select>
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+            </form>
+            <div class="section-select">
+                <p>Марка <span>авто:</span></p>
+                <p>Модель <span>автомобиля:</span></p>
+                <p>Год выпуска <span>автомобиля:</span></p>
+                <p>Комплектация:</p>
+            </div>
+            <form class="for-car">
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+                <select name="">
+                    <option>BMW</option>
+                    <option>VOLVO</option>
+                    <option>KIA</option>
+                </select>
+            </form>
+        </div>
+        <form>
+            <input type="submit" value="Поиск...">
+        </form>
     </div>
-    <div class="tires">
 
+    <div class="tires">
+        <h3>поиск шин</h3>
+        <div class="size">
+            <span>Размер:</span>
+            <select name="tire">
+                <option value="value1">145</option>
+                <option value="value2">150</option>
+                <option value="value3">160</option>
+            </select>
+            <span> / </span>
+            <select name="tire">
+                <option value="value1">145</option>
+                <option value="value2">150</option>
+                <option value="value3">160</option>
+            </select>
+        </div>
+        <div class="R">
+            <span>R</span>
+            <select name="tire">
+                <option value="value1">12</option>
+                <option value="value2">13</option>
+                <option value="value3">14</option>
+            </select>
+        </div>
+        <div class="season">
+            <span>Сезон:</span>
+            <form>
+                <input type="checkbox"><span>Лето</span><br>
+                <input type="checkbox"><span>Зима</span><br>
+                <input type="checkbox"><span>всесез</span>
+            </form>
+        </div>
+        <form>
+            <input type="submit" value="Поиск...">
+        </form>
     </div>
     <div class="wheels">
 
@@ -249,6 +350,7 @@
         <li><a href="">Статьи</a></li>
         <li><a href="">Контакты</a></li>
     </ul>
+    <p class="copyright"><a href="#">Создание сайта &copy; Global Vision</a></p>
 
 </footer>
 

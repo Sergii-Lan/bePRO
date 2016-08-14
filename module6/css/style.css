@@ -2,7 +2,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    /*font-family: Arial;*/
+}
+
+@font-face {
+    font-family: 'lucida_sans_unicoderegular', Arial;
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -22,6 +30,7 @@ header {
 
 .regist {
     display: inline-block;
+    position: relative;
     width: 470px;
     margin: 0 18px;
     padding-left: 25px;
@@ -39,9 +48,16 @@ input::-webkit-input-placeholder {
     font-size: 11px;
 }
 
+.regist img {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+
 .regist .submit {
     width: 40px;
     height: 13px;
+    margin-right: -7px;
     border: 0;
     background: none;
     color: #fff;
@@ -49,8 +65,14 @@ input::-webkit-input-placeholder {
     line-height: 13px;
 }
 
+.regist form span {
+    color: white;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
 .registration {
-    margin-right: 18px;
+    margin-right: 16px;
     color: #fff;
     font-size: 11px;
     line-height: 25px;
@@ -59,7 +81,7 @@ input::-webkit-input-placeholder {
 
 .no-password {
     color: #92979d;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 25px;
 }
 
@@ -70,7 +92,9 @@ input::-webkit-input-placeholder {
 }
 
 .phone span {
+    font-family: Arial;
     font-size: 19px;
+    font-weight: 500;
 }
 
 .icon {
@@ -118,7 +142,7 @@ nav ul li {
 
 nav li a {
     padding: 5px 14px;
-    color: #838D8f;
+    color: #838d8f;
     line-height: 33px;
     text-decoration: none;
     text-transform: uppercase;
@@ -133,16 +157,15 @@ nav li a:hover {
 .order {
     display: inline-block;
     width: 225px;
-    margin-left: 48px;
-    color: #838D8F;
+    margin-left: 44px;
+    color: #838d8f;
     font-size: 11px;
 }
 
 .order .number {
     margin-right: 15px;
-    font-size: 12px;
     color: #0d5a8f;
-
+    font-size: 12px;
 }
 
 /*----------------------SEARCH------------------------*/
@@ -152,27 +175,150 @@ section {
     margin: 0 5px;
 }
 
+/*-----------------------SEARCH left-column(car)---------------------*/
+
 .car {
-    width: 383px;
-    height: 128px;
-    padding: 0 12px 8px 18px;
-    border: 1px solid grey;
+    width: 413px;
+    height: 134px;
+    border: 1px solid #808080;
     border-radius: 20px;
 }
 
-.tires {
-    width: 162px;
-    height: 128px;
-    padding: 0 12px 8px 18px;
-    border: 1px solid grey;
-    border-radius: 20px;
+h3 {
+    font-size: 14px;
 }
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    height: 14px;
+    color: #0d5a8f;
+    margin: 0 19px 8px 19px;
+}
+
+.title span {
+    margin-top: 4px;
+    font-size: 11px;
+}
+
+.for-car{
+    width: 100px;
+}
+
+.for-car select {
+    width: 100px;
+    /*margin-left: 5px;*/
+    margin-bottom: 3px;
+}
+
+.section-select {
+    display: inline-block;
+    width: 70px;
+    margin-top: 4px;
+    margin-left: 16px;
+    margin-right: 14px;
+    font-size: 10px;
+}
+
+.section-select p {
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+
+.section-select span {
+    font-size: 10px;
+    color: grey;
+    line-height: 10px;
+}
+
+.for-flex {
+    display: flex;
+}
+
+select .years {
+    width: 56px;
+}
+
+.car input[type="submit"] {
+    width: 53px;
+    margin-left: 340px;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: #0d5a8f;
+    background: none;
+}
+
+/*-----------------------SEARCH center-column(tires)---------------------*/
+
+.tires {
+    width: 192px;
+    height: 134px;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.tires h3 {
+    margin-left: 15px;
+}
+
+.size select {
+    width: 50px;
+    margin: 0 4px;
+    font-size: 12px;
+}
+
+.size {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.R {
+    display: inline-block;
+    margin: 9px 0 0 46px;
+    font-size: 12px;
+}
+
+.R select {
+    width: 45px;
+    margin: 0 4px;
+    font-size: 12px;
+}
+
+.season {
+    display: flex;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.season form {
+    margin-left: 12px;
+    font-size: 11px;
+}
+
+.season form span {
+    line-height: 12px;
+    font-size: 11px;
+}
+
+.tires input[type="submit"] {
+    width: 53px;
+    margin-left: 128px;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: #0d5a8f;
+    background: none;
+}
+
+
+/*-----------------------SEARCH right-column(wheels)---------------------*/
 
 .wheels {
     width: 235px;
     height: 128px;
     padding: 0 12px 8px 18px;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     border-radius: 20px;
 }
 
@@ -192,13 +338,13 @@ article {
     width: 180px;
     height: 25px;
     margin-bottom: 12px;
-    font-size: 12px;
-    border: 1px solid black;
-    line-height: 25px;
+    border: 1px solid #000;
     border-radius: 20px;
-    background: url("../img/icon.png") no-repeat 3px 0;
+    background: url('../img/icon.png') no-repeat 3px 0;
+    font-size: 12px;
+    line-height: 25px;
     text-transform: uppercase;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px #808080;
 }
 
 .name h2 {
@@ -209,10 +355,10 @@ article {
 .name2 {
     width: 150px;
     height: 25px;
-    border: 1px solid black;
-    line-height: 25px;
+    border: 1px solid #000;
     border-radius: 20px;
-    background: url("../img/icon2.png") no-repeat 3px 0;
+    background: url('../img/icon2.png') no-repeat 3px 0;
+    line-height: 25px;
     text-transform: uppercase;
 }
 
@@ -232,15 +378,15 @@ article {
 }
 
 .left-column li a {
-    color: grey;
+    color: #808080;
     font-size: 13px;
     text-decoration: none;
 }
 
 .left-column li a:hover {
-    color: black;
+    border-bottom: 1px solid #808080;
+    color: #000;
     font-size: 15px;
-    border-bottom: 1px solid grey;
 }
 
 
@@ -248,12 +394,12 @@ article {
 
 .main-column {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    padding: 14px 0;
+    justify-content: space-around;
     width: 525px;
     height: 600px;
-    background: linear-gradient(#E6E7E9, #A8B7BE);
+    padding: 14px 0;
+    background: linear-gradient(#e6e7e9, #a8b7be);
     text-align: center;
 }
 
@@ -266,9 +412,9 @@ figure {
     width: 137px;
     height: 126px;
     margin-bottom: 6px;
-    background: white;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 10px;
+    background: #fff;
 }
 
 .tire img {
@@ -304,10 +450,10 @@ strong span i {
     height: 25px;
     margin-top: 12px;
     margin-left: 15px;
-    border: 1px solid black;
-    line-height: 25px;
+    border: 1px solid #000;
     border-radius: 20px;
-    background: url("../img/icon2.png") no-repeat 3px 0;
+    background: url('../img/icon2.png') no-repeat 3px 0;
+    line-height: 25px;
     text-transform: uppercase;
 }
 
@@ -329,47 +475,49 @@ strong span i {
 .right-column input[type="submit"] {
     width: 80px;
     height: 26px;
-    border-radius: 10px;
     margin: 20px;
-    background: linear-gradient(#1F6585, #0C3357);
-    color: white;
+    border-radius: 10px;
+    background: linear-gradient(#1f6585, #0c3357);
+    color: #fff;
     font-size: 12px;
 }
 
 .brand {
-    width: 909px;
     display: block;
+    width: 909px;
     height: 25px;
     margin-top: 37px;
 }
 
 .brand img {
     /*margin:;*/
-    text-align: center;
     line-height: 27px;
+    text-align: center;
 }
 
 /*--------------------------------------------FOOTER------------------------------------*/
 
 footer {
-    display: inline-flex;
-    justify-content: center;
+    /*display: inline-flex;
+    justify-content: center;*/
     width: 909px;
     height: 100px;
     margin-top: 25px;
-    background: #213A4E;
+    background: #213a4e;
 }
 
 footer ul {
-    margin-top: 8px;
+    width: 909px;
     display: inline-block;
+    margin-top: 8px;
+    text-align: center;
 }
 
 footer ul li {
     display: inline-block;
     padding: 0 7px;
+    border-right: 2px solid #808080;
     font-size: 13px;
-    border-right: 2px solid grey;
     list-style: none;
 }
 
@@ -378,12 +526,25 @@ footer li:last-child {
 }
 
 footer li a {
-    color: grey;
-    text-decoration: none;
     margin: 1px;
     padding: 1px;
+    color: #808080;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer li a:hover {
-    color: #59A4CB;
+    color: #59a4cb;
+}
+
+.copyright {
+    margin-top: 9px;
+    text-align: center;
+}
+
+.copyright a {
+    color: #7f4740;
+    font-size: 11px;
+    line-height: 18px;
+    text-decoration: none;
 }
