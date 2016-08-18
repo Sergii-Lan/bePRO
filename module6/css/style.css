@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    /*font-family: Arial;*/
 }
 
 @font-face {
@@ -14,6 +13,10 @@
 }
 
 body {
+    font-family: 'lucida_sans_unicoderegular', Arial, sans-serif;
+}
+
+.wrapper {
     width: 909px;
     margin: 0 auto;
 }
@@ -26,6 +29,11 @@ header {
     margin-top: 20px;
     margin-bottom: 10px;
     line-height: 26px;
+}
+
+.reg {
+    height: 14px;
+    line-height: 14px;
 }
 
 .regist {
@@ -43,7 +51,7 @@ header {
     width: 114px;
     height: 17px;
     margin-right: 4px;
-    border: none;
+    border: 0;
     line-height: 16px;
 }
 
@@ -60,9 +68,9 @@ input::-webkit-input-placeholder {
 }
 
 .regist .submit {
-    width: 40px;
+    width: 24px;
     height: 13px;
-    margin: -7px;
+    margin: 0;
     border: 0;
     background: none;
     color: #fff;
@@ -71,37 +79,39 @@ input::-webkit-input-placeholder {
 }
 
 .regist form span {
-    color: white;
+    color: #fff;
     font-size: 12px;
-    margin-right: 3px;
 }
 
 .registration {
     margin-right: 16px;
     color: #fff;
+    font-family: Arial;
     font-size: 11px;
     line-height: 25px;
     text-decoration: none;
 }
 
 .no-password {
+    border-bottom: 1px solid #92979d;
     color: #92979d;
+    font-family: Arial;
     font-size: 12px;
-    letter-spacing: .9px;
+    text-decoration: none;
 }
 
 .phone {
     display: inline-block;
-    margin-top: 2px;
     align-items: center;
-    padding-left: 32px;
+    margin-top: 2px;
+    padding-left: 30px;
     background: url('../img/tel.jpg') 7px 2px no-repeat;
 }
 
 .phone span {
     font-family: Arial;
     font-size: 18px;
-    letter-spacing: 0.6px;
+    letter-spacing: .6px;
 }
 
 .icon {
@@ -165,23 +175,23 @@ nav li a:hover {
 .order {
     display: inline-block;
     width: 225px;
-    margin-left: 44px;
+    margin-left: 47px;
     color: #838d8f;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .order .number {
     margin-right: 12px;
     color: #0d5a8f;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 /*----------------------SEARCH------------------------*/
 section {
-    font-family: Arial;
     display: flex;
     justify-content: space-between;
     margin: 0 5px;
+    font-family: Arial;
 }
 
 /*-----------------------SEARCH left-column(car)---------------------*/
@@ -190,7 +200,7 @@ section {
     width: 413px;
     height: 134px;
     border: 1px solid #808080;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 h3 {
@@ -201,8 +211,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     height: 14px;
+    margin: 0 19px 8px;
     color: #0d5a8f;
-    margin: 0 19px 8px 19px;
 }
 
 .title span {
@@ -210,8 +220,9 @@ h3 {
     font-size: 11px;
 }
 
-.for-car{
+.for-car {
     width: 100px;
+    margin-right: 12px;
 }
 
 .for-car select {
@@ -224,19 +235,19 @@ h3 {
     display: inline-block;
     width: 70px;
     margin-top: 4px;
+    margin-right: 7px;
     margin-left: 16px;
-    margin-right: 14px;
     font-size: 10px;
 }
 
 .section-select p {
-    line-height: 10px;
     margin-bottom: 5px;
+    line-height: 10px;
 }
 
 .section-select span {
+    color: #808080;
     font-size: 10px;
-    color: grey;
     line-height: 10px;
 }
 
@@ -244,17 +255,17 @@ h3 {
     display: flex;
 }
 
-select .years {
+.for-car .years {
     width: 56px;
 }
 
 .car input[type="submit"] {
     width: 53px;
     margin-left: 340px;
-    border: none;
-    border-bottom: 2px solid grey;
-    color: #0d5a8f;
+    border: 0;
+    border-bottom: 2px solid #808080;
     background: none;
+    color: #0d5a8f;
 }
 
 /*-----------------------SEARCH center-column(tires)---------------------*/
@@ -263,7 +274,7 @@ select .years {
     width: 192px;
     height: 134px;
     border: 1px solid #808080;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 10px;
 }
 
@@ -283,13 +294,13 @@ select .years {
     margin-left: 15px;
 }
 
-.R {
+.r {
     display: inline-block;
     margin: 9px 0 0 46px;
     font-size: 12px;
 }
 
-.R select {
+.r select {
     width: 45px;
     margin: 0 4px;
     font-size: 12px;
@@ -307,28 +318,27 @@ select .years {
 }
 
 .season form span {
-    line-height: 12px;
     font-size: 11px;
+    line-height: 12px;
 }
 
 .tires input[type="submit"] {
     width: 53px;
     margin-left: 128px;
-    border: none;
-    border-bottom: 2px solid grey;
-    color: #0d5a8f;
+    border: 0;
+    border-bottom: 2px solid #808080;
     background: none;
+    color: #0d5a8f;
 }
 
 
 /*-----------------------SEARCH right-column(wheels)---------------------*/
 
 .wheels {
-    width: 235px;
-    height: 128px;
-    padding: 0 12px 8px 18px;
+    width: 265px;
+    height: 134px;
     border: 1px solid #808080;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 /*-------------------------------------ARTICLE----------------------------------*/
@@ -346,7 +356,7 @@ article {
 .name {
     width: 180px;
     height: 25px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     border: 1px solid #000;
     border-radius: 20px;
     background: url('../img/icon.png') no-repeat 3px 0;
@@ -357,8 +367,9 @@ article {
 }
 
 .name h2 {
-    margin-left: 30px;
+    margin-left: 26px;
     font-size: 12px;
+    letter-spacing: .6px;
 }
 
 .name2 {
@@ -382,13 +393,26 @@ article {
 }
 
 .left-column ul li {
+    position: relative;
     margin: 6px 0;
+    list-style-type: none;
+}
 
+.left-column ul li::before {
+    position: absolute;
+    top: 6px;
+    left: -12px;
+    width: 3px;
+    height: 3px;
+    border: 2px solid #808080;
+    border-radius: 999px;
+    content: '';
 }
 
 .left-column li a {
     color: #808080;
     font-size: 13px;
+    letter-spacing: .4px;
     text-decoration: none;
 }
 
@@ -404,7 +428,7 @@ article {
 .main-column {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     width: 525px;
     height: 600px;
     padding: 14px 0;
@@ -413,6 +437,7 @@ article {
 }
 
 figure {
+    margin: 3px 7px 20px 22px;
     /*width: 175px;
     height: 137px;*/
 }
@@ -420,7 +445,7 @@ figure {
 .tire {
     width: 137px;
     height: 126px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     border: 1px solid #000;
     border-radius: 10px;
     background: #fff;
@@ -458,7 +483,7 @@ strong span i {
     width: 135px;
     height: 25px;
     margin-top: 12px;
-    margin-left: 15px;
+    margin-left: 11px;
     border: 1px solid #000;
     border-radius: 20px;
     background: url('../img/icon2.png') no-repeat 3px 0;
@@ -478,6 +503,7 @@ strong span i {
 
 .right-column span {
     font-size: 12px;
+    letter-spacing: .6px;
     line-height: 11px;
 }
 
@@ -492,34 +518,30 @@ strong span i {
 }
 
 .brand {
-    display: block;
-    width: 909px;
-    height: 25px;
-    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+    margin-left: 117px;
 }
 
 .brand img {
-    /*margin:;*/
-    line-height: 27px;
-    text-align: center;
+    margin-right: 13px;
 }
 
 /*--------------------------------------------FOOTER------------------------------------*/
 
 footer {
-    /*display: inline-flex;
-    justify-content: center;*/
     width: 909px;
     height: 100px;
-    margin-top: 25px;
+    margin-top: 22px;
     background: #213a4e;
 }
 
 footer ul {
-    font-family: Arial;
-    width: 909px;
     display: inline-block;
+    width: 909px;
     margin-top: 8px;
+    font-family: Arial;
     text-align: center;
 }
 
@@ -536,12 +558,12 @@ footer li:last-child {
 }
 
 footer li a {
-    margin: 1px;
+    margin: 2px;
     padding: 1px;
     color: #808080;
+    letter-spacing: .2px;
     text-align: center;
     text-decoration: none;
-    letter-spacing: .8px;
 }
 
 footer li a:hover {
@@ -557,6 +579,5 @@ footer li a:hover {
     color: #7f4740;
     font-size: 10px;
     text-decoration: none;
-    letter-spacing: .8px;
 }
 
