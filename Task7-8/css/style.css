@@ -28,6 +28,10 @@ header {
     flex-wrap: wrap;
 }
 
+.nav480px {
+    display: none;
+}
+
 .width {
     width: 960px;
     margin: 0 auto;
@@ -35,6 +39,7 @@ header {
 
 .logo__link {
     color: #fff;
+    line-height: 48px;
     font-size: 48px;
     text-decoration: none;
     text-transform: uppercase;
@@ -108,8 +113,8 @@ header {
 /*--------------------------Slider-----------------------------------*/
 
 .slider__container {
-    margin-top: 157px;
     height: 400px;
+    margin-top: 164px;
     background-color: rgba(0, 0, 0, .2);
 }
 
@@ -117,6 +122,9 @@ header {
     position: absolute;
     top: -17px;
     left: 615px;
+    width: 274px;
+    height: 434px;
+    background: url('../img/phone.png');
 }
 
 .slider {
@@ -256,9 +264,9 @@ article {
 }
 
 .blog__h2 {
-    margin-top: 29px;
+    margin-top: 26px;
     margin-bottom: 7px;
-    margin-left: 68px;
+    margin-left: 61px;
     font-size: 30px;
     font-weight: normal;
     letter-spacing: -.2px;
@@ -281,13 +289,13 @@ article {
 
 .blog__h2_right {
     margin-top: 27px;
-    margin-left: 33px;
+    margin-left: 27px;
 }
 
 .blog__h3 {
     margin-top: 14px;
     margin-bottom: 2px;
-    margin-left: 100px;
+    margin-left: 94px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 800;
@@ -311,7 +319,7 @@ article {
 }
 
 .blog__paragraph__right {
-    margin-left: 100px;
+    margin-left: 94px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -320,7 +328,7 @@ article {
 
 .blog__read {
     margin-top: 3px;
-    margin-right: 17px;
+    margin-right: 21px;
     float: right;
     color: #000;
     font-family: LeagueGothicRegular, Tahoma, sans-serif;
@@ -335,9 +343,9 @@ article {
 }
 
 .blog__slider-radio {
-    margin-top: 33px;
+    margin-top: 35px;
     margin-bottom: 65px;
-    margin-left: 195px;
+    margin-left: 186px;
 }
 
 .blog__radio {
@@ -394,8 +402,8 @@ article {
 }
 
 .comments__box {
-    width: 29%;
-    margin: 90px 0;
+    width: 30%;
+    margin: 94px 0;
 }
 
 .comments__h1 {
@@ -467,7 +475,7 @@ footer {
 .footer__menu__item {
     display: inline-block;
     margin: 0 13px;
-    padding: 0 7px;
+    padding: 0 6px;
     border-bottom: 2px solid transparent;
     list-style: none;
 }
