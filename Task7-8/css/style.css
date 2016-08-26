@@ -23,9 +23,9 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .nav480px {
@@ -39,8 +39,8 @@ header {
 
 .logo__link {
     color: #fff;
-    line-height: 48px;
     font-size: 48px;
+    line-height: 48px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -375,20 +375,20 @@ article {
 .partners {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .partners__items {
-    margin: 26px 0;
+    margin: 26px 34px;
 }
 
-.partners__items:last-child {
+/*.partners__items:last-child {
     margin-right: 53px;
 }
 
 .partners__items:first-child {
     margin-left: 60px;
-}
+}*/
 
 /*---------------------------------------------COMMENTS-------------------------------------*/
 
@@ -424,14 +424,14 @@ article {
     font-family: LeagueGothicRegular, Tahoma, sans-serif;
     font-size: 30px;
     font-weight: normal;
-    letter-spacing: -0.2px;
+    letter-spacing: -.2px;
     text-transform: uppercase;
 }
 
 .comments__paragraph {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
     font-size: 16px;
+    font-weight: 300;
     line-height: 24px;
 }
 

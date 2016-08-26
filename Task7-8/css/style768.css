@@ -10,8 +10,8 @@
     }
 
     .nav1 {
-        margin-left: 11px;
         margin-top: 25px;
+        margin-left: 11px;
     }
 
     .nav480px {
@@ -33,18 +33,18 @@
     }
 
     .slider__h2 {
+        height: 26px;
         margin-top: 0;
         font-size: 26px;
         overflow: hidden;
-        height: 26px;
     }
 
     .slider__paragraph {
-        font-size: 16px;
-        margin-top: 9px;
         height: 100px;
-        overflow: hidden;
+        margin-top: 9px;
+        font-size: 16px;
         line-height: 26px;
+        overflow: hidden;
     }
 
     .phone {
@@ -93,9 +93,9 @@
 
     .about__paragraph {
         height: 140px;
-        overflow: hidden;
         margin-top: 2px;
         line-height: 24px;
+        overflow: hidden;
     }
 
     .about__link {
@@ -107,8 +107,8 @@
 
     .blog__h2 {
         width: 130px;
-        margin-bottom: 2px;
         margin-top: 26px;
+        margin-bottom: 2px;
         margin-left: 79px;
         font-size: 24px;
     }
@@ -118,9 +118,9 @@
     }
 
     .blog__paragraph {
+        height: 150px;
         margin-left: 80px;
         line-height: 24px;
-        height: 150px;
         overflow: hidden;
     }
 
@@ -131,10 +131,10 @@
     }
 
     .blog__h2_right {
+        width: 150px;
         margin-top: 26px;
         margin-left: 29px;
         font-size: 30px;
-        width: 150px;
     }
 
     .blog__paragraph__right {
@@ -153,17 +153,13 @@
         font-size: 18px;
     }
 
-    .partners {
-        justify-content: space-between;
-    }
-
     .partners__items {
         margin: 26px 29px;
     }
 
-    .partners__items:first-child {
+    /*.partners__items:first-child {
         margin-left: 22px;
-    }
+    }*/
 
     /*------------------------COMMENTS----------------------------------*/
     .comments__copyright {
@@ -185,7 +181,7 @@
     }
 
     .comments__h2 {
-        font-size: 24px
+        font-size: 24px;
     }
 
     /*---------------------------FOOTER------------------------------*/
