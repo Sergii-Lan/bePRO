@@ -1,0 +1,88 @@
+.logo {
+    display: inline-block;
+}
+
+.nav1 {
+    width: 83%;
+    display: inline-block;
+    text-align: right;
+}
+
+.comments__box {
+    margin: 94px 14px;
+}
+
+.about__box {
+    margin: 75px 12px 0 12px;
+}
+
+.blog__list {
+    line-height: 22px;
+}
+
+.check__ul {
+    width: 83%;
+    text-align: right;
+}
+
+.designedby {
+    width: 42%;
+    text-align: right;
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .partners__items {
+        margin: 26px 26px;
+    }
+
+    .comments__box {
+        margin: 94px 11px;
+    }
+
+    .designedby {
+        width: 22%;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .logo {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about__box {
+        margin-top: 15px;
+    }
+
+    .comments__box {
+        margin: 25px 10px;
+    }
+
+    .designedby {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+    @media (min-width: 320px) and (max-width: 479px) {
+
+        .logo {
+            width: 76%;
+            text-align: center;
+        }
+
+        .about__box {
+            margin-top: 15px;
+        }
+
+        .comments__box {
+            margin: 25px 10px;
+        }
+
+        .designedby {
+            width: 100%;
+            text-align: center;
+        }
+    }
