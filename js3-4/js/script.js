@@ -36,18 +36,19 @@ var formObject = {
             }
 
         }
+    },
+    /************************************Submit*****************************/
+    button: function () {
+        var inputSubmit = document.createElement('input');
+        inputSubmit.type = 'submit';
+        inputSubmit.value = 'Проверить мои результаты';
+        form.appendChild(inputSubmit);
     }
 
 };
 
 formObject.block();
-
-/************************************Submit*****************************/
-
-var inputSubmit = document.createElement('input');
-inputSubmit.type = 'submit';
-inputSubmit.value = 'Проверить мои результаты';
-form.appendChild(inputSubmit);
+formObject.button();
 
 
 console.log(divWrapper);
