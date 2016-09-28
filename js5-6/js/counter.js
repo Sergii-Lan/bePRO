@@ -52,8 +52,8 @@ function startCounter() {
     $timer = setInterval(function () {
 
         /** Increment Counters */
-        $counter++;
-        $milliseconds++;
+        $counter += 10;
+        $milliseconds += 10;
 
         /** Reset Local Counter */
         if ($milliseconds.toString().length > 3) {
@@ -63,7 +63,7 @@ function startCounter() {
         /** Render HTML Layout */
         renderCounter();
 
-    }, 1);
+    }, 10);
 }
 
 
