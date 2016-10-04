@@ -5,6 +5,7 @@
 
 const PARAM_START = 'start';
 const PARAM_PAUSE = 'pause';
+const PARAM_PAUSE_CLASS = 'btn-success';
 
 /** Timer */
 var $timer, $counter, $milliseconds;
@@ -16,7 +17,6 @@ var $stopButton = document.getElementById('stop');
 /** Wrappers */
 var $millisecondsWrapper = document.getElementById('milliseconds');
 var $timerWrapper = document.getElementById('timer');
-
 
 /** Buttons Listeners */
 $switchButton.addEventListener("click", switchCounter);

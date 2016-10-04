@@ -12,6 +12,7 @@ function initApplication() {
 
     /** Switch Button to: START position */
     $switchButton.classList.remove(PARAM_PAUSE);
+    $switchButton.classList.remove(PARAM_PAUSE_CLASS);
     $switchButton.classList.add(PARAM_START);
     $switchButton.innerHTML = PARAM_START;
 
@@ -47,6 +48,7 @@ function startCounter() {
     $switchButton.innerHTML = PARAM_PAUSE;
     $switchButton.classList.remove(PARAM_START);
     $switchButton.classList.add(PARAM_PAUSE);
+    $switchButton.classList.add(PARAM_PAUSE_CLASS);
 
     /** Run Timer */
     $timer = setInterval(function () {
@@ -79,6 +81,7 @@ function pauseCounter() {
     /** Switch Button to: START position */
     $switchButton.innerHTML = PARAM_START;
     $switchButton.classList.remove(PARAM_PAUSE);
+    $switchButton.classList.remove(PARAM_PAUSE_CLASS);
     $switchButton.classList.add(PARAM_START);
 }
 
