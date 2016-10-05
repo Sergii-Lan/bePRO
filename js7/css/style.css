@@ -61,6 +61,10 @@ ul li a {
     color: white;
 }
 
+.active_li a {
+    color: white;
+}
+
 #1 {
     background: yellow;
 }
