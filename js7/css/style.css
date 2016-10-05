@@ -13,14 +13,6 @@
     border: 1px solid grey;
 }
 
-.li_first {
-    background: blue;
-}
-
-.li_first a {
-    color: white;
-}
-
 ul {
     border: 1px solid grey;
     margin: 7px 2px 10px;
@@ -58,22 +50,22 @@ ul li a {
 
 .third {
     display: none;
-    margin-right: 15px;
 }
 
-label {
-    display: block;
-    margin-top: 15px;
-    margin-left: 10px;
-
+.none {
+    display: none;
 }
 
-label:first-child{
-    margin-top: 20px;
+.active_li {
+    background: blue;
+    color: white;
 }
 
-label:last-child {
-    margin-bottom: 20px;
+#1 {
+    background: yellow;
 }
 
+.active_a {
+    color: white;
+}
 
