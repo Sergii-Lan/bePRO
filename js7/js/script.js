@@ -4,18 +4,13 @@ $(function () {
     var $liElem = $('li');
     var $pElem = $('p');
     var $aElem = $('a');
-    // var $aFirst = $('.li_first a');
-    // var $aSecond = $('.li_second a');
-    // var $aThird = $('.li_third a');
     var $pElemFirst = $('.first');
     var $pElemSecond = $('.second');
     var $pElemThird = $('.third');
     var $liElemFirst = $('.active_li');
     var $liElemSecond = $('.li_second');
     var $liElemThird = $('.li_third');
-    var $mainBlock = $('div.main-block');
 
-    console.log($mainBlock);
 
 $liElem.on('click', function (e) {
     e.preventDefault();
@@ -24,27 +19,21 @@ $liElem.on('click', function (e) {
     var $aActive = $(this).find('a');
     $aElem.removeClass('active_a');
     $aActive.addClass('active_a');
-
-
+    $pElem.css('display', 'none');
 });
 
 
-    $liElemFirst.on('click', function (e) {
-        e.preventDefault();
-        $pElem.css('display', 'none');
+    $liElemFirst.on('click', function () {
         $pElemFirst.slideToggle();
     });
 
-    $liElemSecond.on('click', function (e) {
-        e.preventDefault();
-        $pElem.css('display', 'none');
+    $liElemSecond.on('click', function () {
         $pElemSecond.slideToggle();
     });
 
-    $liElemThird.on('click', function (e) {
-        e.preventDefault();
-        $pElem.css('display', 'none');
+    $liElemThird.on('click', function () {
         $pElemThird.slideToggle();
     });
+
 
 });

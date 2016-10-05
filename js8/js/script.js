@@ -11,7 +11,8 @@ $(function () {
     var $prompt3 = $('.prompt3');
     var $button = $('[type="button"]');
 
-    $firstName.mousemove( function () {
+
+    $firstName.hover( function () {
         $prompt1.css('opacity', '100')
 
     }).mouseout( function () {
@@ -21,7 +22,7 @@ $(function () {
     });
 
 
-    $lastName.mousemove( function () {
+    $lastName.hover( function () {
         $prompt2.css('opacity', '100')
 
     }).mouseout( function () {
@@ -31,7 +32,7 @@ $(function () {
     });
 
 
-    $address.mousemove( function () {
+    $address.hover( function () {
         $prompt3.css('opacity', '100');
 
     }).mouseout( function () {
