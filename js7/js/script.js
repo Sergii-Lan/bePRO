@@ -1,62 +1,30 @@
-//-----------------------JS-7------------------/
+/**
+ * Tabs Application.
+ */
 
-$(function () {
-    var $liElem = $('li');
-    var $pElem = $('p');
-    var $aElem = $('a');
-    var $pElemFirst = $('.first');
-    var $pElemSecond = $('.second');
-    var $pElemThird = $('.third');
-    var $liElemFirst = $('.active_li');
-    var $liElemSecond = $('.li_second');
-    var $liElemThird = $('.li_third');
+/** Init */
+var $li = $('ul.tabs-buttons > li');
+var $p = $('.tabs-content > p');
 
+/** Document Ready */
+$(document).ready(function () {
 
-    $liElem.on('click', function (e) {
-        e.preventDefault();
-        $liElem.removeClass('active_li');
-        $(this).addClass('active_li');
-        $pElem.css('display', 'none');
+    /** Click Event Handler */
+    $li.on('click', function () {
 
-        // index = $(this).index();
+        /** Deactivate Active Elements */
+        $li.filter('.active').removeClass('active');
+        $p.filter('.active').removeClass('active');
 
-        // switch (index) {
-        //     case 0: {
-        //         $pElemFirst.slideToggle();
-        //         break;
-        //     }
-        //     case 1: {
-        //         $pElemSecond.slideToggle();
-        //         break;
-        //     }
-        //     case 2: {
-        //         $pElemThird.slideToggle();
-        //         break;
-        //     }
-        // }
+        /** Activate Actual Elements */
+        var $index = $(this).addClass('active').index();
+        $p.eq($index).addClass('active');
 
-
-        $(this).index();
-        console.log($(this).index());
-        index = $(this).index();
-        console.log($pElem.index(index));
-        console.log(index);
-        // $('.main_block').find('p').index(1).slideToggle();
-        // $pElem.slideToggle();
+        /** Prevent Default Action */
+        return false;
     });
 
-
-    // $liElemFirst.on('click', function () {
-    //     $pElemFirst.slideToggle();
-    // });
-    //
-    // $liElemSecond.on('click', function () {
-    //     $pElemSecond.slideToggle();
-    // });
-    //
-    // $liElemThird.on('click', function () {
-    //     $pElemThird.slideToggle();
-    // });
-
-
 });
+
+
+/** ..i commentiruy code, bleat' !! */
