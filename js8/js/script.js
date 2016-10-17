@@ -12,39 +12,39 @@ $(function () {
     var $button = $('[type="button"]');
     var $input1 = $('input');
 
-    $input1.hover( function () {
-        console.log('777');
+    // $input1.hover( function () {
+    //     console.log('777');
+    // });
+
+
+    $firstName.hover( function () {
+        $prompt1.css('opacity', '100')
+
+    }).mouseout( function () {
+        $prompt1.animate({
+            opacity: '0'
+        }, 1000);
     });
 
 
-    // $firstName.hover( function () {
-    //     $prompt1.css('opacity', '100')
-    //
-    // }).mouseout( function () {
-    //     $prompt1.animate({
-    //         opacity: '0'
-    //     }, 1000);
-    // });
-    //
-    //
-    // $lastName.hover( function () {
-    //     $prompt2.css('opacity', '100')
-    //
-    // }).mouseout( function () {
-    //     $prompt2.animate({
-    //         opacity: '0'
-    //     }, 1000);
-    // });
-    //
-    //
-    // $address.hover( function () {
-    //     $prompt3.css('opacity', '100');
-    //
-    // }).mouseout( function () {
-    //     $prompt3.animate({
-    //         opacity: '0'
-    //     }, 1000);
-    // });
+    $lastName.hover( function () {
+        $prompt2.css('opacity', '100')
+
+    }).mouseout( function () {
+        $prompt2.animate({
+            opacity: '0'
+        }, 1000);
+    });
+
+
+    $address.hover( function () {
+        $prompt3.css('opacity', '100');
+
+    }).mouseout( function () {
+        $prompt3.animate({
+            opacity: '0'
+        }, 1000);
+    });
 
 
     $button.on('click', function () {
