@@ -5,6 +5,8 @@
 'use strict';
 /**--------------------------Modal title-------------------------*/
 
+var form = $('.form');
+
 var modalWindow = function () {
     $('#modal').click(function (event) { // лoвим клик пo ссылки с id="go"
         event.preventDefault(); // выключaем стaндaртную рoль элементa
@@ -25,8 +27,9 @@ var modalWindow = function () {
                     $('.form').each(function (index, element) {
                         element.reset();
                     });
-                    // location.reload(); //перезагружаем страницу
                 }
             );
+        localStorage.clear();
+
     });
 };

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/tmpl.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/test-tmpl.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -18,20 +20,23 @@
 <script type="text/template" id="test11">
 
         <form class="form">
-    <% for (var i = 0; i < data.length; i++) { %>
-            <div class="block_<%= i %>">
-    <p><%= data[i].question  %></p>
-    <label><input name="<%= data[i].question %>" type="checkbox" value=""><span><%= data[i].answer1.text %></span></label>
-    <label><input type="checkbox" ><span><%= data[i].answer2 %></span></label>
-    <label><input type="checkbox"><span><%= data[i].answer3 %></span></label>
-            </div>
-    <% }; %>
-    <input type="submit" id="modal" value="Проверить мои результаты">
+            <% for ( var i = 0; i < data.question.length; i++ ) { %>
+
+                <p class="test__questionText"><%= data.question[i].text%></p>
+                <% for ( var j = 0; j < data.question[i].answer.length; j++ ) { %>
+                    <label>
+                        <input type="checkbox" class="<%='check'+i%>" id="<%= 'chBox_'+i+'_'+j %>">
+                        <span><%= data.question[i].answer[j].text %></span>
+                    </label>
+                <% } %>
+            <% } %>
+    <input class="class_modal" type="submit" id="modal" value="Проверить мои результаты">
     </form>
 
         <div id="modal_form"><!-- Сaмo oкнo -->
             <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
-            <p>у Вас ... правильных ответов</p>
+            <p>Ваш результат:</p>
+            <p id="modalText"></p>
         </div>
         <div id="overlay"></div><!-- Пoдлoжкa -->
 
