@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My homework_js3-4</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h2>Тест по программированию</h2>
+
+<script type="text/template" id="test11">
+
+        <form class="form">
+    <% for (var i = 0; i < data.length; i++) { %>
+            <div class="block_<%= i %>">
+    <p><%= data[i].question  %></p>
+    <label><input name="<%= data[i].question %>" type="checkbox" value=""><span><%= data[i].answer1.text %></span></label>
+    <label><input type="checkbox" ><span><%= data[i].answer2 %></span></label>
+    <label><input type="checkbox"><span><%= data[i].answer3 %></span></label>
+            </div>
+    <% }; %>
+    <input type="submit" id="modal" value="Проверить мои результаты">
+    </form>
+
+        <div id="modal_form"><!-- Сaмo oкнo -->
+            <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
+            <p>у Вас ... правильных ответов</p>
+        </div>
+        <div id="overlay"></div><!-- Пoдлoжкa -->
+
+    </script>
+
+
+</div>
+</body>
+</html>
