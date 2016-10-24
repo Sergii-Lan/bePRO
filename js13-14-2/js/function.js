@@ -1,35 +1,118 @@
 /**
- * Created by Сергей on 21.10.2016.
+ * Show Modal Window.
+ * ------------------
  */
+function showModal() {
 
-'use strict';
-/**--------------------------Modal title-------------------------*/
+    var styles = {
+        opacity: 1,
+        top: '50%'
+    };
 
-var form = $('.form');
+    /** Animate Overlay */
+    overlay.fadeIn(OVERLAY_ANIM_SPEED, function () {
 
-var modalWindow = function () {
-    $('#modal').click(function (event) { // лoвим клик пo ссылки с id="go"
-        event.preventDefault(); // выключaем стaндaртную рoль элементa
-        $('#overlay').fadeIn(400, // снaчaлa плaвнo пoкaзывaем темную пoдлoжку
-            function () { // пoсле выпoлнения предъидущей aнимaции
-                $('#modal_form')
-                    .css('display', 'block') // убирaем у мoдaльнoгo oкнa display: none;
-                    .animate({opacity: 1, top: '50%'}, 200); // плaвнo прибaвляем прoзрaчнoсть oднoвременнo сo съезжaнием вниз
-            });
+        /** Render Results */
+        renderResults();
+
+        /** Animate Modal */
+        modal.show().animate(styles, MODAL_ANIM_SPEED);
     });
-    /* Зaкрытие мoдaльнoгo oкнa, тут делaем тo же сaмoе нo в oбрaтнoм пoрядке */
-    $('#modal_close, #overlay').on('click', function () { // лoвим клик пo крестику или пoдлoжке
-        $('#modal_form')
-            .animate({opacity: 0, top: '45%'}, 200,  // плaвнo меняем прoзрaчнoсть нa 0 и oднoвременнo двигaем oкнo вверх
-                function () { // пoсле aнимaции
-                    $(this).css('display', 'none'); // делaем ему display: none;
-                    $('#overlay').fadeOut(400); // скрывaем пoдлoжку
-                    $('.form').each(function (index, element) {
-                        element.reset();
-                    });
-                }
-            );
-        localStorage.clear();
 
+    return false;
+}
+
+
+/**
+ * Hide Modal Window.
+ * ------------------
+ */
+function hideModal() {
+
+    var styles = {
+        opacity: 0,
+        top: '40%'
+    };
+
+    modal.animate(styles, MODAL_ANIM_SPEED, function () {
+        modal.hide();
+        overlay.fadeOut(OVERLAY_ANIM_SPEED);
     });
-};
+
+    return false;
+}
+
+
+/**
+ * Reset Form.
+ * -----------
+ */
+function resetResults() {
+    form.each(function (index, element) {
+        element.reset();
+    });
+}
+
+
+/**
+ * Check Quiz.
+ * -----------
+ */
+function checkQuiz() {
+
+    var result = true;
+    var questions = readLocalStorage(QUESTIONS_KEY);
+    questions = JSON.parse(questions);
+
+    /** Quiz Questions */
+    questions.forEach(function (question, questionNr) {
+
+        /** Form Answers */
+        var formQuestion = form.find('.question').eq(questionNr);
+        var formAnswers = formQuestion.find('input');
+
+        /** UnSelect all answers of Question */
+        var userAnswer = formAnswers.filter(':checked');
+        if (userAnswer.length != 1) {
+            result = false;
+        }
+
+        /** Validate User Answer */
+        formAnswers.each(function (answerNr, formAnswer) {
+            if ($(formAnswer).is(':checked') && !question.answers[answerNr].valid) {
+                result = false;
+            }
+        });
+    });
+
+    return result;
+}
+
+/**
+ *
+ * Render Result Message.
+ * -----------------------
+ * @returns boolean|string
+ */
+function renderResults() {
+
+    var isPassed = checkQuiz();
+
+    var message = isPassed ? 'Отличный результат :)' : 'Не правильно, попробуй еще :(';
+
+    modal.find('.results')
+        .toggleClass('alert-danger', !isPassed)
+        .empty()
+        .text(message);
+}
+
+
+/**
+ * Get LocalStorage Value.
+ * -----------------------
+ * @param key
+ * @returns boolean|string
+ */
+function readLocalStorage(key) {
+    return localStorage.hasOwnProperty(key) ? localStorage.getItem(key) : false;
+}
