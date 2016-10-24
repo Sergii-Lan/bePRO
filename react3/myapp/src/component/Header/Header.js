@@ -1,0 +1,1 @@
+/** * Created by Сергей on 12.10.2016. */import React from 'react';import './header.css';const headerView = () => {    return (        <div className="header">        <a href="/">Home</a>            {" | "}            <a href="/about">About</a>        </div>    )};export default headerView;

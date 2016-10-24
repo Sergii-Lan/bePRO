@@ -1,160 +1,1 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background: url("../img/fon2.jpg") repeat-x;
-}
-
-.main-block {
-    width: 1000px;
-    margin: 0 auto 30px auto;
-    padding: 0;
-    border-bottom: 2px solid black;
-    background: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
-
-.header {
-    height: 175px;
-}
-
-.photo {
-    margin: 0;
-    padding: 0;
-}
-
-.logo {
-    float: left;
-    margin-top: 8px;
-    margin-left: 25px;
-}
-
-.clearfix::after { /* зачистка float*/
-    display: block;
-    clear: both;
-    content: '';
-}
-
-.right-float {
-    float: right;
-    width: 375px;
-}
-
-.contacts {
-    /*float: right;*/
-    color: #71AEAF;
-}
-
-.contacts ul {
-    list-style: none;
-    margin-top: 10px;
-    /*margin-right: 30px;*/
-}
-
-.country {
-    padding-top: 20px;
-    display: block;
-    margin-right: 30px;
-}
-
-.country ul {
-    list-style: none;
-}
-
-.country li {
-    display: inline-block;
-}
-
-.country li img {
-    padding: 0 5px;
-}
-
-.country li a {
-    font-size: 10px;
-    text-align: center;
-    color: #71AEAF;
-}
-
-.menu {
-    display: block;
-    background: #323232;
-    color: white;
-    margin-top: -4px;
-}
-
-.menu ul {
-    display: inline-block;
-    list-style: none;
-}
-
-.menu ul > li {
-    display: inline-block;
-    line-height: 28px;
-    position: relative;
-}
-
-.menu li a {
-    color: white;
-    text-decoration: none;
-    padding: 0 30px;
-}
-
-li ul.submenu {
-    position: absolute; /* Подменю позиционируются абсолютно */
-    display: none; /* Скрываем подменю */
-    box-shadow: 0 6px 4px #323232;
-}
-
-.submenu li a{
-    padding-left: 15px;
-}
-li:hover ul.submenu {
-    display: block;
-    background: #323232;
-}
-
-.fon {
-    width: 1000px; /* ширина трех блоков */
-    background: url(../img/fon1.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */
-    float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
-}
-
-.leftColumn {
-    width: 210px;
-    float: left;
-}
-
-.fon p {
-    margin: 10px 25px 10px 10px;
-    text-align: justify;
-}
-
-.centerColumn {
-    width: 580px;
-    float: left;
-}
-
-.rightColumn {
-    width: 210px;
-    float: right;
-}
-
-h2 {
-    margin-top: 10px;
-    font-size: 18px;
-    text-align: center;
-}
-
-li span {
-    font-size: 10px;
-}
-
-footer {
-    text-align: center;
-    margin-top: -23px;
-    color: white;
-    font-size: 13px;
-}
+* {    margin: 0;    padding: 0;}body {    background: url("../img/fon2.jpg") repeat-x;}.main-block {    width: 1000px;    margin: 0 auto 30px auto;    padding: 0;    border-bottom: 2px solid black;    background: white;    font-family: 'Open Sans', sans-serif;    font-size: 14px;}.header {    height: 175px;}.photo {    margin: 0;    padding: 0;}.logo {    float: left;    margin-top: 8px;    margin-left: 25px;}.clearfix::after { /* зачистка float*/    display: block;    clear: both;    content: '';}.right-float {    float: right;    width: 375px;}.contacts {    /*float: right;*/    color: #71AEAF;}.contacts ul {    list-style: none;    margin-top: 10px;    /*margin-right: 30px;*/}.country {    padding-top: 20px;    display: block;    margin-right: 30px;}.country ul {    list-style: none;}.country li {    display: inline-block;}.country li img {    padding: 0 5px;}.country li a {    font-size: 10px;    text-align: center;    color: #71AEAF;}.menu {    display: block;    background: #323232;    color: white;    margin-top: -4px;}.menu ul {    display: inline-block;    list-style: none;}.menu ul > li {    display: inline-block;    line-height: 28px;    position: relative;}.menu li a {    color: white;    text-decoration: none;    padding: 0 30px;}li ul.submenu {    position: absolute; /* Подменю позиционируются абсолютно */    display: none; /* Скрываем подменю */    box-shadow: 0 6px 4px #323232;}.submenu li a{    padding-left: 15px;}li:hover ul.submenu {    display: block;    background: #323232;}.fon {    width: 1000px; /* ширина трех блоков */    background: url(../img/fon1.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */    float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */}.leftColumn {    width: 210px;    float: left;}.fon p {    margin: 10px 25px 10px 10px;    text-align: justify;}.centerColumn {    width: 580px;    float: left;}.rightColumn {    width: 210px;    float: right;}h2 {    margin-top: 10px;    font-size: 18px;    text-align: center;}li span {    font-size: 10px;}footer {    text-align: center;    margin-top: -23px;    color: white;    font-size: 13px;}

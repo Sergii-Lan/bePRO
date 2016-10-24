@@ -1,131 +1,1 @@
-.wrapper {
-    width: 965px;
-    margin: 50px auto;
-    border: 1px solid grey;
-}
-
-.carousel-list {
-    list-style: none;
-    width: 10000px;
-    padding: 0;
-    position: relative;
-}
-
-.carousel-element p {
-    text-align: center;
-}
-
-.carousel-element {
-    display: block;
-    margin-right: 25px;
-    float: left;
-}
-
-.carousel-element img {
-    max-width: 250px;
-}
-
-.carousel-hider {
-    width: 800px;
-    overflow: hidden;
-    float: left
-}
-
-.carousel-arrow-left, .carousel-arrow-right {
-    float: left;
-    display: block;
-    border: 1px solid grey;
-    background-color: lightgrey;
-    padding: 5px;
-    margin-top: 50px;
-}
-
-.carousel-arrow-left:hover, .carousel-arrow-right:hover {
-    cursor: pointer;
-    background-color: grey;
-}
-
-.carousel-arrow-left {
-    margin-right: 25px;
-}
-
-.carousel-arrow-right {
-    margin-left: 25px;
-}
-
-.clearfix::after { /* зачистка float*/
-    display: block;
-    clear: both;
-    content: '';
-}
-
-/*--------------------------RESUME------------------------*/
-
-.size-page {
-    width: 500px;
-    margin: 50px auto;
-    font-family: "Myriad Pro", Myriad, Arial;
-    font-size: 14px;
-    text-align: center;
-}
-
-.text-cent {
-    text-align: center;
-}
-
-h1 {
-    margin-bottom: 28px;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-h2,
-h3 {
-    margin: 10px 0;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: left;
-}
-
-ul li {
-    margin: 5px 0;
-    padding-left: 6px;
-    line-height: 19px;
-}
-
-li {
-    color: #1f1f1f;
-    text-align: left;
-}
-
-hr {
-    color: #1f1f1f;
-}
-
-img {
-    border: 1px solid #000;
-}
-
-li a {
-    color: #00f;
-}
-
-.text-cent {
-    text-align: center;
-}
-
-.for-li {
-    color: #1f1f1f;
-    list-style-type: none;
-}
-
-.col-grey {
-    color: #1f1f1f;
-    text-align: left;
-}
-
-.block {
-    border-bottom: 1px solid #808080;
-    line-height: 23px;
-}
+.wrapper {    width: 965px;    margin: 50px auto;    border: 1px solid grey;}.carousel-list {    list-style: none;    width: 10000px;    padding: 0;    position: relative;}.carousel-element p {    text-align: center;}.carousel-element {    display: block;    margin-right: 25px;    float: left;}.carousel-element img {    max-width: 250px;}.carousel-hider {    width: 800px;    overflow: hidden;    float: left}.carousel-arrow-left, .carousel-arrow-right {    float: left;    display: block;    border: 1px solid grey;    background-color: lightgrey;    padding: 5px;    margin-top: 50px;}.carousel-arrow-left:hover, .carousel-arrow-right:hover {    cursor: pointer;    background-color: grey;}.carousel-arrow-left {    margin-right: 25px;}.carousel-arrow-right {    margin-left: 25px;}.clearfix::after { /* зачистка float*/    display: block;    clear: both;    content: '';}/*--------------------------RESUME------------------------*/.size-page {    width: 500px;    margin: 50px auto;    font-family: "Myriad Pro", Myriad, Arial;    font-size: 14px;    text-align: center;}.text-cent {    text-align: center;}h1 {    margin-bottom: 28px;    font-size: 30px;    text-align: center;    text-transform: uppercase;}h2,h3 {    margin: 10px 0;    font-size: 18px;    font-weight: bold;    text-align: left;}ul li {    margin: 5px 0;    padding-left: 6px;    line-height: 19px;}li {    color: #1f1f1f;    text-align: left;}hr {    color: #1f1f1f;}img {    border: 1px solid #000;}li a {    color: #00f;}.text-cent {    text-align: center;}.for-li {    color: #1f1f1f;    list-style-type: none;}.col-grey {    color: #1f1f1f;    text-align: left;}.block {    border-bottom: 1px solid #808080;    line-height: 23px;}

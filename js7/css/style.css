@@ -1,47 +1,1 @@
-.wrapper {
-    width: 500px;
-    height: 350px;
-    margin: 50px auto;
-    border: 1px solid grey;
-}
-
-ul.tabs-buttons {
-    border: 1px solid grey;
-    margin: 7px 2px 10px;
-    border-radius: 10px;
-}
-
-ul.tabs-buttons li {
-    display: inline-block;
-    list-style: none;
-    border: 1px solid grey;
-    background: white;
-    width: 100px;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-}
-
-ul.tabs-buttons > li > a {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-}
-
-ul.tabs-buttons > li.active {
-    background: #398439;
-}
-
-ul.tabs-buttons > li.active > a {
-    color: #fff;
-}
-
-.tabs-content > p {
-    display: none;
-}
-
-.tabs-content > p.active {
-    display: block;
-}
+.wrapper {    width: 500px;    height: 350px;    margin: 50px auto;    border: 1px solid grey;}ul.tabs-buttons {    border: 1px solid grey;    margin: 7px 2px 10px;    border-radius: 10px;}ul.tabs-buttons li {    display: inline-block;    list-style: none;    border: 1px solid grey;    background: white;    width: 100px;    text-align: center;    border-radius: 5px;    cursor: pointer;    margin: 10px;}ul.tabs-buttons > li > a {    text-decoration: none;    color: black;    text-align: center;    font-size: 18px;}ul.tabs-buttons > li.active {    background: #398439;}ul.tabs-buttons > li.active > a {    color: #fff;}.tabs-content > p {    display: none;}.tabs-content > p.active {    display: block;}

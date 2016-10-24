@@ -1,79 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>My homework_js</title>
-    <!--JQUERY-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <!--MAIN FILE-->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/carousel-my.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/tmpl.js"></script>
-</head>
-<body>
-<div class="wrapper">
-    <div class="clearfix">
-    <div class="carousel-arrow-left"><span>Влево</span></div>
-    <div class="carousel-hider">
-        <ul class="carousel-list">
-            <li class="carousel-element"><img src="img/img1.jpg">
-                <p>Картинка 1</p></li>
-            <li class="carousel-element"><img src="img/img2.jpg">
-                <p>Картинка 2</p></li>
-            <li class="carousel-element"><img src="img/img3.jpg">
-                <p>Картинка 3</p></li>
-            <li class="carousel-element"><img src="img/img4.jpg">
-                <p>Картинка 4</p></li>
-            <li class="carousel-element"><img src="img/img5.jpg">
-                <p>Картинка 5</p></li>
-            <li class="carousel-element"><img src="img/img6.jpg">
-                <p>Картинка 6</p></li>
-        </ul>
-    </div>
-    <div class="carousel-arrow-right"><span>Вправо</span></div>
-    </div>
-
-    <script type="text/template" id="resume">
-    <div class="size-page">
-        <div class="block">
-            <h1><%= name%></h1>
-
-            <div class="text-cent">
-                <img src="img/1.jpg" alt="я" title="Лановий Сергій">
-            </div>
-            <p class="col-grey">Закінчив ДАЖКГ у 2011р. Спеціальність: менеджмент організацій.</p>
-
-        </div>
-        <div class="block">
-            <h2><%= causes%></h2>
-            <ul>
-                <li><%= whyIt%></li>
-            </ul>
-        </div>
-        <div class="block">
-            <h2><%= contacts%></h2>
-            <ul class="for-li">
-                <li><%= mob%></li>
-                <li><%= email%></li>
-            </ul>
-            <h3><%= vk%></h3>
-            <ul>
-                <li class="for-li"><a href="https://new.vk.com/id9717360" target="_blank">vk.com</a></li>
-            </ul>
-
-        </div>
-        <div>
-            <h3><%= interests%></h3>
-            <ul class="for-li">
-                <li><%= myInterest%></li>
-            </ul>
-        </div>
-    </div>
-    </script>
-</div>
-
-
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head>    <meta charset="utf-8">    <title>My homework_js</title>    <!--JQUERY-->    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>    <!--MAIN FILE-->    <link rel="stylesheet" href="css/reset.css">    <link rel="stylesheet" href="css/style.css">    <script src="js/carousel-my.js"></script>    <script src="js/script.js"></script>    <script src="js/tmpl.js"></script></head><body><div class="wrapper">    <div class="clearfix">    <div class="carousel-arrow-left"><span>Влево</span></div>    <div class="carousel-hider">        <ul class="carousel-list">            <li class="carousel-element"><img src="img/img1.jpg">                <p>Картинка 1</p></li>            <li class="carousel-element"><img src="img/img2.jpg">                <p>Картинка 2</p></li>            <li class="carousel-element"><img src="img/img3.jpg">                <p>Картинка 3</p></li>            <li class="carousel-element"><img src="img/img4.jpg">                <p>Картинка 4</p></li>            <li class="carousel-element"><img src="img/img5.jpg">                <p>Картинка 5</p></li>            <li class="carousel-element"><img src="img/img6.jpg">                <p>Картинка 6</p></li>        </ul>    </div>    <div class="carousel-arrow-right"><span>Вправо</span></div>    </div>    <script type="text/template" id="resume">    <div class="size-page">        <div class="block">            <h1><%= name%></h1>            <div class="text-cent">                <img src="img/1.jpg" alt="я" title="Лановий Сергій">            </div>            <p class="col-grey"><%= education%></p>        </div>        <div class="block">            <h2><%= causes%></h2>            <ul>                <li><%= whyIt%></li>            </ul>        </div>        <div class="block">            <h2><%= contacts%></h2>            <ul class="for-li">                <li><%= mob%></li>                <li><%= email%></li>            </ul>            <h3><%= vk%></h3>            <ul>                <li class="for-li"><a href="<%= myvk %>" target="_blank">vk.com</a></li>            </ul>        </div>        <div>            <h3><%= interests%></h3>            <ul class="for-li">                <li><%= myInterest%></li>            </ul>        </div>    </div>    </script></div></body></html>

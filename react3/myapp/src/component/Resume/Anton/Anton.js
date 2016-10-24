@@ -1,0 +1,1 @@
+/** * Created by Сергей on 24.10.2016. */import React from 'react';const Anton = () => {    return (        <div>            <ul>                <h2>Resume Anton</h2>                <li>Anton</li>                <li>Foto</li>                <li>Some info</li>                <li>email</li>            </ul>        </div>    )};export default Anton;

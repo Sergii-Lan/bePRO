@@ -1,19 +1,1 @@
-blockquote {
-    font-style: italic;
-    font-size: 20px;
-    margin: 20% auto;
-    width: 30%;
-    padding: 0 25px;
-    color: #aaa;
-    border-left: 3px solid #ddd;
-    line-height: 30px;
-    text-align: justify;
-}
-
-blockquote a {
-    color: #aaa;
-}
-
-blockquote strong {
-    color: #666;
-}
+blockquote {    font-style: italic;    font-size: 20px;    margin: 20% auto;    width: 30%;    padding: 0 25px;    color: #aaa;    border-left: 3px solid #ddd;    line-height: 30px;    text-align: justify;}blockquote a {    color: #aaa;}blockquote strong {    color: #666;}
