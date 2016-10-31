@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*HTML*/
+<h1><%= date%></h1>
+<span><%= someText%></span>
+
+
+/*JS*/
+
+                                      var test77 = {
+    someText: 'Hello world!777',
+    date: '10.05'
+};
+
+var content1 = tmpl(html, test77);
+
+$('body').append(content1);
