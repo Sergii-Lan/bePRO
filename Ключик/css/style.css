@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    left: 50%;
+    margin-left: -503px;
+    width: 1006px;
+    height: 232px;
+    background: url("../img/header-footer/background-header.png") no-repeat;
+    z-index: 10;
+}
+
+/*section {*/
+    /*background-position: top center;*/
+/*}*/
+
+.main-first {
+    height: 735px;
+    background: url("../img/main-page/main-page/bg-pink-first-main.jpg") no-repeat top center;
+}
+
+.main-second {
+    height: 779px;
+    background: url("../img/main-page/main-page/bg-green-main.jpg") no-repeat top center;
+}
+
+.main-third {
+    height: 951px;
+    background: url("../img/main-page/main-page/bg-pink-main-2.jpg") no-repeat top center;
+}
+
+.main-feedback {
+    height: 709px;
+    background: url("../img/main-page/main-page/baggroun-d-green-main-pag.png") no-repeat top center;
+}
+
+
+.main-form {
+    height: 1010px;
+    background: url("../img/main-page/main-page/bg-green-main-form.jpg") no-repeat top center;
+}
+
+.main-map {
+    position: relative;
+    top: -37px;
+    height: 751px;
+    background: url("../img/main-page/main-page/bg-pink-last-main.png") no-repeat top center;
+}
+
+.footer-block {
+    position: absolute;
+    width: 100%;
+    height: 399px;
+    background: url("../img/header-footer/background-footer.png") no-repeat;
+    z-index: 10;
+    left: 50%;
+    margin-left: -700px;
+    bottom: 0;
+}
+
+footer {
+    position: relative;
+}
