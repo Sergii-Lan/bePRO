@@ -21,10 +21,6 @@ header {
     z-index: 10;
 }
 
-/*section {*/
-    /*background-position: top center;*/
-/*}*/
-
 .main-first {
     height: 735px;
     background: url("../img/main-page/main-page/bg-pink-first-main.jpg") no-repeat top center;
@@ -38,23 +34,172 @@ header {
 .main-third {
     height: 951px;
     background: url("../img/main-page/main-page/bg-pink-main-2.jpg") no-repeat top center;
+    contain: content;
+}
+
+.my-feedback {
+    position: relative;
 }
 
 .main-feedback {
+    position: absolute;
+    top: -73px;
     height: 709px;
     background: url("../img/main-page/main-page/baggroun-d-green-main-pag.png") no-repeat top center;
+    contain: content;
+    left: 50%;
+    width: 100%;
+    margin-left: -50%;
+    z-index: 3;
 }
 
+/*--------------main-form----------------------*/
 
 .main-form {
     height: 1010px;
+    margin-top: 341px;
     background: url("../img/main-page/main-page/bg-green-main-form.jpg") no-repeat top center;
+    contain: content;
 }
 
+.main-form-wrapper {
+    width: 940px;
+    margin: 500px auto 0 auto;
+}
+
+.main-form-wrapper p {
+    text-align: center;
+}
+
+.main-form-wrapper h2 {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e3c834;
+}
+
+.main-form-left-block {
+    float: left;
+    width: 45%;
+    margin: 20px 2%;
+    min-height: 40px;
+}
+
+.main-form-right-block {
+    float: right;
+    width: 45%;
+    margin: 20px 2%;
+    min-height: 40px;
+    border: 1px solid black;
+}
+
+.main-form-info-wrapper {
+    background: #d7749e;
+    color: white;
+    contain: content;
+}
+
+.main-form-info-wrapper ul {
+    margin: 15px 0 30px 60px;
+}
+
+.main-form-info-wrapper ul li {
+    list-style: none;
+}
+
+.main-form-info-wrapper ul:first-child div {
+    width: 33px;
+    height: 34px;
+    background: url(../img/main-page/main-page/split-icons-main.png) -46px 0 no-repeat;
+    position: absolute;
+    left: 14px;
+}
+
+.main-form-info-wrapper ul:nth-child(2) div {
+    width: 33px;
+    height: 34px;
+    background: url(../img/main-page/main-page/split-icons-main.png) -80px 0 no-repeat;
+    position: absolute;
+    left: 14px;
+}
+
+.main-form-info-wrapper ul:nth-child(3) div {
+    width: 35px;
+    height: 34px;
+    background: url(../img/main-page/main-page/split-icons-main.png) -113px 0 no-repeat;
+    position: absolute;
+    left: 14px;
+}
+
+.main-form-left-block p {
+    text-align: left;
+    color: white;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.main-form-right-block p {
+    text-align: left;
+    color: white;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+/*----------------main-map-----------------*/
+
 .main-map {
+    position: relative;
+    margin-top: -37px;
     height: 751px;
     background: url("../img/main-page/main-page/bg-pink-last-main.png") no-repeat top center;
 }
+
+.main-map-map {
+    margin: 0 auto;
+    width: 947px;
+    height: 714px;
+    background: url(../img/main-page/main-page/map.png) 0 37px no-repeat;
+}
+
+/*------------main-feedback------------------------*/
+
+.main-feedback-block {
+    margin: 100px auto 0 auto;
+}
+
+.main-feedback-block h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #e3c834;
+}
+
+.main-feedback-block-slider {
+    height: 365px;
+    width: 683px;
+    margin: 40px auto;
+    background-image: url("../img/main-page/main-page/slider.png");
+    background-repeat: no-repeat;
+}
+
+.notebook {
+    width: 890px;
+    height: 787px;
+    margin: 50px auto 0 auto;
+    background: url("../img/main-page/main-page/notepad-main.png") no-repeat;
+}
+
+
+
+
+.relative {
+    position: relative;
+}
+
+
+
+/*---------------footer-------------------*/
 
 .footer-block {
     position: absolute;
@@ -65,8 +210,14 @@ header {
     /*left: 50%;*/
     /*margin-left: -700px;*/
     bottom: 0;
+    contain: content;
 }
 
 footer {
     position: relative;
+}
+
+.footer-block-info {
+    width: 300px;
+    margin: 50px auto 0 auto;
 }
