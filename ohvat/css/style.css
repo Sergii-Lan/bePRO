@@ -173,4 +173,59 @@ body {
 
 
 
-/*---------------  ------------*/
+/*--------------- services ------------*/
+
+.services-block {
+    display: flex;
+    width: 995px;
+    margin: 0 auto;
+}
+
+.services-info {
+    width: 390px;
+}
+
+.services-border {
+    margin: 0 25px 0 35px;
+}
+
+.services-info-title {
+    display: block;
+    font-size: 2.4em;
+}
+
+.services-info-text {
+    height: 60px;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+
+.services-button {
+    background: #f7b417;
+    color: white;
+    padding: 7px 22px;
+    font-size: 1.6em;
+    border-radius: 5px;
+    margin: 23px 0 0 10px;
+    display: inline-block;
+}
+
+.services-block-img {
+    width: 200px;
+}
+
+.services-block-img img {
+    margin: 25px auto;
+    display: block;
+}
+
+.services-list ul li {
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+
+.services-list ul li::before {
+    margin-right: 15px;
+    content: url("../img/tick.png");
+}
