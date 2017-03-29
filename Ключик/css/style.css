@@ -29,6 +29,7 @@ header {
 .main-second {
     height: 779px;
     background: url("../img/main-page/main-page/bg-green-main.jpg") no-repeat top center;
+    contain: content;
 }
 
 .main-third {
@@ -220,4 +221,22 @@ footer {
 .footer-block-info {
     width: 300px;
     margin: 50px auto 0 auto;
+}
+
+
+
+.sam-bla {
+    margin: 200px auto;
+    width: 900px;
+}
+
+.sam-bla ul {
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 15%;
+}
+
+.sam-bla li {
+    display: inline-block;
+    padding:5px 37px;
 }
