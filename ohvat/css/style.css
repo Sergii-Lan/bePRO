@@ -179,6 +179,8 @@ body {
     display: flex;
     width: 995px;
     margin: 0 auto;
+    padding: 35px 0;
+    background: #f9f8f9;
 }
 
 .services-info {
@@ -228,4 +230,12 @@ body {
 .services-list ul li::before {
     margin-right: 15px;
     content: url("../img/tick.png");
+}
+
+.services-block-color-grey {
+   background: #e4e3e5;
+}
+
+.title-uppercase {
+    text-transform: uppercase;
 }
