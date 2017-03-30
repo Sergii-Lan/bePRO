@@ -180,7 +180,6 @@ body {
     width: 995px;
     margin: 0 auto;
     padding: 35px 0;
-    background: #f9f8f9;
 }
 
 .services-info {
@@ -234,6 +233,10 @@ body {
 
 .services-block-color-grey {
    background: #e4e3e5;
+}
+
+.services-block-color-white {
+    background: #f9f8f9;
 }
 
 .title-uppercase {
