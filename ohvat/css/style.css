@@ -103,6 +103,7 @@ body {
 
 .main-work-block {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main-work-block-side {
