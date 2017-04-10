@@ -266,4 +266,49 @@ body {
 
 }
 
+/*---------------------portfolio-page---------------------*/
 
+.port-page-first {
+    background: url("../img/port-page-first.jpg") top center no-repeat;
+    height: 807px;
+}
+
+.port-page-first-block {
+    margin: 0 auto;
+    width: 995px;
+}
+
+.port-page-ux {
+    background: url("../img/port-page-ux.jpg") top center no-repeat;
+    height: 627px;
+}
+
+.port-page-ui {
+    background: url("../img/port-page-ui.jpg") top center no-repeat;
+    height: 629px;
+}
+
+.port-page-ui-second {
+    background: url("../img/port-page-ui-second.jpg") top center no-repeat;
+    height: 2166px;
+}
+
+.port-page-adap {
+    background: url("../img/port-page-adap.jpg") top center no-repeat;
+    height: 1018px;
+}
+
+.port-page-clients {
+    background: url("../img/port-page-clients.jpg") top center no-repeat;
+    height: 1879px;
+}
+
+.port-page-clients-second {
+    background: url("../img/port-page-clients-second.jpg") top center no-repeat;
+    height: 1026px;
+}
+
+.port-page-order {
+    background: url("../img/port-page-order.jpg") top center no-repeat;
+    height: 267px;
+}
