@@ -312,3 +312,61 @@ body {
     background: url("../img/port-page-order.jpg") top center no-repeat;
     height: 267px;
 }
+
+.port-h1 {
+    font-size: 2.4em;
+    color: #487ec1;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.port-h2 {
+    font-size: 1.8em;
+    text-align: right;
+}
+
+.port-text {
+    font-size: 1.4em;
+    text-align: right;
+}
+
+.port-page-first-block-right {
+    padding-top: 100px;
+    width: 70%;
+    text-align: right;
+}
+
+.ux-block {
+    padding-top: 180px;
+    color: #fff;
+}
+
+.ux-block-h1 {
+    font-size: 2.4em;
+}
+
+.ux-block-h2 {
+    font-size: 2.2em;
+}
+
+.ux-block-text {
+    font-size: 1.8em;
+}
+
+.ui-block {
+    padding-top: 345px;
+    color: #fff;
+    text-align: right;
+}
+
+.ui-block-h1 {
+    font-size: 2.4em;
+}
+
+.ui-block-h2 {
+    font-size: 2.2em;
+}
+
+.ui-block-text {
+    font-size: 1.8em;
+}
