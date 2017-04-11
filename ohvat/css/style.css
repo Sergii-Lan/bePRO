@@ -370,3 +370,50 @@ body {
 .ui-block-text {
     font-size: 1.8em;
 }
+
+.port-page-site {
+    padding-top: 111px;
+}
+
+.port-page-site img {
+    margin: 0 auto;
+    display: block;
+}
+
+.port-page-adap-block {
+    padding-top: 45px;
+    color: #fff;
+}
+
+.port-page-adap-h1 {
+    font-size: 2.4em;
+    text-transform: uppercase;
+}
+
+.port-page-adap-text {
+    font-size: 1.8em;
+}
+
+.port-page-clients-block {
+    padding-top: 45px;
+    color: #fff;
+}
+
+.port-page-clients-h1 {
+    font-size: 2.4em;
+    text-transform: uppercase;
+}
+
+.port-page-clients-text {
+    font-size: 1.8em;
+}
+
+.port-page-order-block {
+    padding-top: 45px;
+    color: #fff;
+}
+
+.port-page-order-block {
+    font-size: 2.4em;
+    text-transform: uppercase;
+}
