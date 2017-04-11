@@ -313,20 +313,23 @@ body {
 }
 
 .port-h1 {
-    font-size: 2.4em;
+    font-size: 4.2em;
     color: #487ec1;
     text-align: right;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .port-h2 {
-    font-size: 1.8em;
+    font-size: 3.6em;
     text-align: right;
+    margin-bottom: 16px;
 }
 
 .port-text {
-    font-size: 1.4em;
+    font-size: 2.4em;
     text-align: right;
+    padding-left: 260px;
 }
 
 .port-page-first-block-right {
@@ -340,17 +343,19 @@ body {
 }
 
 .ux-block-h1 {
-    font-size: 2.6em;
+    font-size: 4.2em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .ux-block-h2 {
-    font-size: 2.4em;
+    font-size: 3.4em;
+    text-transform: uppercase;
 }
 
 .ux-block-text {
-    width: 650px
-    font-size: 2em;
+    width: 650px;
+    font-size: 2.4em;
     margin-top: 35px;
 }
 
@@ -361,15 +366,18 @@ body {
 }
 
 .ui-block-h1 {
-    font-size: 2.4em;
+    font-size: 4.2em;
+    text-transform: uppercase;
 }
 
 .ui-block-h2 {
-    font-size: 2.2em;
+    font-size: 3.4em;
+    text-transform: uppercase;
 }
 
 .ui-block-text {
-    font-size: 1.8em;
+    font-size: 2.4em;
+    padding-left: 230px;
 }
 
 .port-page-site {
@@ -389,12 +397,15 @@ body {
 }
 
 .port-page-adap-h1 {
-    font-size: 2.4em;
+    font-size: 4.2em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .port-page-adap-text {
-    font-size: 1.8em;
+    font-size: 2.5em;
+    width: 850px;
+    margin-top: 33px;
 }
 
 .port-page-clients-block {
@@ -405,22 +416,27 @@ body {
 }
 
 .port-page-clients-h1 {
-    font-size: 2.4em;
+    font-size: 4.2em;
     text-transform: uppercase;
+    font-weight: 600;
+    width: 900px;
 }
 
 .port-page-clients-text {
-    font-size: 1.8em;
+    font-size: 2.5em;
+    width: 785px;
+    margin-top: 25px;
 }
 
 .port-page-order-block {
-    padding-top: 45px;
+    padding-top: 65px;
     color: #fff;
 }
 
-.port-page-order-block {
-    font-size: 2.4em;
+.port-page-order-block-h1 {
+    font-size: 4.2em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .port-page-wrapper {
