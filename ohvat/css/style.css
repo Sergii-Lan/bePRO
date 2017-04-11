@@ -483,3 +483,17 @@ body {
 .port-page-order-button-block {
     margin-top: 50px;
 }
+
+
+
+/*------------------posad------------------*/
+
+.posad-main-menu {
+    background: url("../img/posad-back-first.jpg") top center no-repeat;
+}
+
+
+
+.posad-bar-cart-back {
+    background: url("../img/posad-bar-cart.jpg") top center no-repeat;
+}
