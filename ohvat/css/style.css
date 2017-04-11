@@ -290,7 +290,6 @@ body {
 
 .port-page-ui-second {
     background: url("../img/port-page-ui-second.jpg") top center no-repeat;
-    height: 2166px;
 }
 
 .port-page-adap {
@@ -300,12 +299,12 @@ body {
 
 .port-page-clients {
     background: url("../img/port-page-clients.jpg") top center no-repeat;
-    height: 1879px;
+    padding-bottom: 110px;
 }
 
 .port-page-clients-second {
     background: url("../img/port-page-clients-second.jpg") top center no-repeat;
-    height: 1026px;
+    padding: 80px 0 80px 0;
 }
 
 .port-page-order {
@@ -332,7 +331,6 @@ body {
 
 .port-page-first-block-right {
     padding-top: 100px;
-    width: 70%;
     text-align: right;
 }
 
@@ -342,15 +340,18 @@ body {
 }
 
 .ux-block-h1 {
-    font-size: 2.4em;
+    font-size: 2.6em;
+    text-transform: uppercase;
 }
 
 .ux-block-h2 {
-    font-size: 2.2em;
+    font-size: 2.4em;
 }
 
 .ux-block-text {
-    font-size: 1.8em;
+    width: 650px
+    font-size: 2em;
+    margin-top: 35px;
 }
 
 .ui-block {
@@ -378,6 +379,8 @@ body {
 .port-page-site img {
     margin: 0 auto;
     display: block;
+    width: 100%;
+    max-width: 874px;
 }
 
 .port-page-adap-block {
@@ -395,6 +398,8 @@ body {
 }
 
 .port-page-clients-block {
+    width: 995px;
+    margin: 0 auto;
     padding-top: 45px;
     color: #fff;
 }
@@ -416,4 +421,30 @@ body {
 .port-page-order-block {
     font-size: 2.4em;
     text-transform: uppercase;
+}
+
+.port-page-wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.port-page-clients-img img {
+    width: 85%;
+    max-width: 1635px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 45px;
+}
+
+.port-page-clients-second-img img {
+    width: 75%;
+    max-width: 1146px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: block;
+}
+
+.port-page-clients-second-img {
+
 }
