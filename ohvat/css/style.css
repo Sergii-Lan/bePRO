@@ -492,8 +492,42 @@ body {
     background: url("../img/posad-back-first.jpg") top center no-repeat;
 }
 
+.posad-main-menu-text {
+    width: 995px;
+    margin: 0 auto;
+}
 
+.posad-main-menu-text-h1 {
+    width: 450px;
+    font-size: 4.2em;
+    text-align: right;
+    font-weight: 600;
+    color: #fff;
+}
+
+.posad-main-menu-text-text {
+    width: 350px;
+    font-size: 3em;
+    text-align: right;
+    color: #fff;
+}
+
+.posad-main-menu-text-h2 {
+    width: 350px;
+    font-size: 4.2em;
+    text-align: left;
+    color: #fff;
+}
+
+.posad-main-menu-img img {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 45px;
+}
 
 .posad-bar-cart-back {
     background: url("../img/posad-bar-cart.jpg") top center no-repeat;
+    height: 790px;
 }
