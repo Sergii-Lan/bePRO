@@ -408,6 +408,12 @@ body {
     margin-top: 33px;
 }
 
+.port-page-adap-menu {
+    height: 170px;
+    margin-top: 50px;
+    background: #3b895b;
+}
+
 .port-page-clients-block {
     width: 995px;
     margin: 0 auto;
@@ -463,4 +469,17 @@ body {
 
 .port-page-clients-second-img {
 
+}
+
+.port-page-order-button {
+    padding: 15px 50px;
+    background: #f7b417;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.port-page-order-button-block {
+    margin-top: 50px;
 }
