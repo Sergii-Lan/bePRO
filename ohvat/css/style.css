@@ -565,3 +565,60 @@ body {
 .port-page-order-color-blue {
     color: #487ec1;
 }
+
+/*----------------bords-----------------*/
+
+.my-bords {
+    padding: 100px 0;
+}
+
+.bords-first {
+    background: linear-gradient(to bottom left, #cf8b95, #6c3a5a);
+}
+
+.my-bords img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1348px;
+    display: block;
+}
+
+.bords-second {
+    background: linear-gradient(to bottom left, #eeeae1, #75656d);
+}
+
+.bords-third {
+    background: linear-gradient(to bottom left, #fab7b2, #ff7c87);
+}
+
+.bords-fouth {
+    background: linear-gradient(to bottom left, #ec6157, #c63633);
+}
+
+.bords-fifth {
+    background: linear-gradient(to bottom left, #ffdcb1, #cea36f);
+}
+
+.bords-sixth {
+    background: linear-gradient(to bottom left, #ce3331, #760703);
+}
+
+.bords-first-block {
+    width: 995px;
+    margin: 0 auto;
+}
+
+.bords-first-block-h1 {
+    padding-left: 50%;
+    font-size: 4.2em;
+    font-weight: 600;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bords-first-block-h2 {
+    font-size: 3.5em;
+    text-align: right;
+    color: #fff;
+}
