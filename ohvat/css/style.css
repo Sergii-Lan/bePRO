@@ -622,3 +622,57 @@ body {
     text-align: right;
     color: #fff;
 }
+
+/*---------------------fitness--------------------*/
+
+.fitness-first {
+    background: url("../img/fitness-first-back.jpg") top center no-repeat;
+    padding-bottom: 170px;
+}
+
+.fitness-first img {
+    display: block;
+    margin: 70px auto 0 auto;
+    width: 100%;
+    max-width: 540px;
+    min-width: 320px;
+}
+
+.fitness-second {
+    padding: 200px 0;
+    background: url("../img/fitness-second-back.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+.fitness-second-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fitness-second img {
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 100%;
+    max-width: 562px;
+    min-width: 320px;
+    height: 100%;
+}
+
+.fitness-first-block {
+    width: 995px;
+    margin: 0 auto;
+}
+
+.fitness-first-block-h1 {
+    font-size: 4.2em;
+    text-align: right;
+    padding-left: 40%;
+    color: #fff;
+}
+
+.fitness-first-block-h2 {
+    font-size: 3em;
+    text-align: right;
+    padding-left: 60%;
+    color: #fff;
+}
